@@ -1,0 +1,34 @@
+Comando:
+  Normal:
+   - '&aUse: /cheques criar <money/points> <quantia>'
+   - '&aUse: /cheques enviar <money/points> <quantia> <player>'
+   - '&aUse: /cheques usar'
+  Admin:
+   - '&aUse: /cheques criar <money/points> <quantia>'
+   - '&aUse: /cheques enviar <money/points> <quantia> <player>'
+   - '&aUse: /cheques usar'
+   - ''
+   - '&cUse: /cheques all <money/points> <quantia>'
+   - '&cUse: /cheques reload'
+Cheque:
+  Minimo Money: 1000
+  Minimo Points: 100
+  Brilhar: true
+  
+Mensagens:
+   Usou Pontos: '&aVoce usou um cheque no valor de: &f{amount} &apontos.'
+   Usou Money: '&aVoce usou um cheque no valor de: &f{amount} &acoins.'
+   Criou Pontos: '&aVoce criou um cheque no valor de: &f{amount} &apontos.'
+   Criou Money: '&aVoce criou um cheque no valor de: &f{amount} &acoins.'
+   Cheio: '&aO inventario do jogador: &f{player} &aesta cheio.'
+   Cheio Eu: '&aSeu inventario esta cheio.'
+   All Pontos: '&aVoce deu um cheque no valor de: &f{amount} &apontos para todos online.'
+   All Money: '&aVoce deu um cheque no valor de: &f{amount} &acoins para todos online.'
+   Enviou: '&aVoce enviou um cheque no valor de: &f{amount} &apara o jogador: &f{player}&a.'
+   Recebeu: '&aVoce recebeu um cheque de: &f{player}'
+   Inexistente: '&aO jogador: &f{player} &anao esta ONLINE ou nao EXISTE.'
+   No Money: '&aVoce nao tem coins suficientes para isto.'
+   No Pontos: '&aVoce nao tem pontos suficientes para isto.'
+   Minimo Pontos: '&aO valor minimo para criacao de cheques e de: &f{amount} &apontos.'
+   Minimo Money: '&aO valor minimo para criacao de cheques e de: &f{amount} &acoins.'
+   Mao: '&aVoce precisa de um cheque na mao para usar isto.'
