@@ -1,0 +1,119 @@
+Events:
+	On Armor Equip:
+		Patterns:
+			[on] armor equip
+		Event values:
+			event-player
+		Cancellable: false
+	On Armor Unequip:
+		Patterns:
+			[on] armor unequip
+		Event values:
+			event-player
+		Cancellable: false
+	On Legendchat chat:
+		Patterns:
+			[on] legendchat chat
+		Event values:
+			event-player
+		Cancellable: true
+	On World Change:
+		Patterns:
+			[on] world change
+		Event values:
+			none
+		Cancellable: false
+Conditions:
+	CondExactlyString:
+		Patterns:
+			%string% is exactly %string%
+	CondPluginIsEnabled:
+		Patterns:
+			[SkPower ]plugin %string% is enabled
+	CondRegExMatch:
+		Patterns:
+			[SkPower ]%strings% matches %strings%
+Effects:
+	EffCreateWorld:
+		Patterns:
+			create world %string%
+	EffCreateWorldFlat:
+		Patterns:
+			create world %string% type %string%
+	EffCreateWorldGenerator:
+		Patterns:
+			create world %string% type %string% generator %string%
+	EffDeleteWorld:
+		Patterns:
+			delete world %string%
+	EffDisablePlugin:
+		Patterns:
+			[SkPower ]disable plugin %string%
+	EffEnablePlugin:
+		Patterns:
+			[SkPower ]enable plugin %string%
+	EffPlayRPSound:
+		Patterns:
+			play resource pack sound %string% volume %float% pitch %float% to %player%
+	EffRegExReplace:
+		Patterns:
+			regex replace %strings% with %string% in %string%
+	EffReloadPlugin:
+		Patterns:
+			[SkPower ]reload plugin %string%
+	EffSparklyPower:
+		Patterns:
+			we (love|<3) sparklypower
+Expressions:
+	ExprLegendChannel:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			legendchat channel
+	ExprLegendMessage:
+		Return type: Text
+		Changers:
+			set
+		Patterns:
+			legendchat message
+	ExprLegendSender:
+		Return type: Player
+		Changers:
+			set
+		Patterns:
+			legendchat sender
+	ExprLegendTag:
+		Return type: Text
+		Changers:
+			set
+			delete
+		Patterns:
+			tag of %player% replacer %string%
+			%player%'s tag replacer %string%
+	ExprMillis:
+		Return type: long
+		Changers:
+			none
+		Patterns:
+			current time millis
+	ExprMinecartMax:
+		Return type: double
+		Changers:
+			set
+		Patterns:
+			max speed of %entity%
+	ExprPlayerGroup:
+		Return type: Text
+		Changers:
+			add
+			set
+		Patterns:
+			%player%'s permission group
+	ExprSquareBlocks:
+		Return type: Item / Material
+		Changers:
+			add
+			set
+		Patterns:
+			blocks in distance %location% and %location%

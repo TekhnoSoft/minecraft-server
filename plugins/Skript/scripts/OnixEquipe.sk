@@ -1,0 +1,12 @@
+# name: OnixEquipe
+# version: 1.0
+# author: _oCanada_
+
+command /staff:
+	trigger:
+		set {_slot} to 0
+		open chest with 6 rows named "&aLista de staffers online." to player
+		loop all players:
+			if  loop-player has permission "redeonix.equipeon":
+				format slot {_slot} of player with loop-player's skull named "&aEquipe Online" with lore "||&7Nick: &e%loop-player's name%||&7Cargo: %coloured loop-player's prefix%||&7Info: &aOnline" to close 
+				add 1 to {_slot}

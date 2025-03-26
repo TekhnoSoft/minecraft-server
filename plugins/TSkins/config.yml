@@ -1,0 +1,26 @@
+#
+# talonskins.cmd.skin - Utilizar /skin <jogador>
+# trc.updater - Receber mensagens de update
+#
+# Licença do plugin
+license: 'sualicença'
+# Ative caso esteja usando o mesmo plugin no BungeeCord
+bungeecord: false
+# Current avaible Backends: SQLite, MySQL
+backend:
+ type: SQLite
+ # only for MySQL
+ host: 'localhost'
+ port: 3306
+ database: 'MCServer'
+ username: 'root'
+ password: ''
+ # only for MySQL END
+# Máximo de skins para cada perm
+# Lembre-se o número máximo não passa de 21 e não pode ser menor que 1
+# Utilize '-' traços ao invés de '.' para a permissão (será substituido por pontos automaticamente)
+max:
+ # permissão 'group.master' ter o máximo de skins (21)
+ group-master: 21
+ # permissão 'group.membro' ter o máximo de skins (3)
+ group-membro: 3

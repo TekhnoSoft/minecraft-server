@@ -1,0 +1,15 @@
+Localizacao: Arenas,17.616255451075922,39.0,-23.543928677420134,-0.45003682,-3.3000154
+Permissao: system.warp.arena
+MensagemSemPermissao: "\xa7cVoc\xc3\xaa n\xc3\xa3o tem permiss\xc3\xa3o para se teleportar\
+  \ para a warp arena."
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: "\xa7aVoc\xc3\xaa sera teleportado para a warp arena em 5 segundos!"
+MensagemFinal: "\xa7aTeleportado com sucesso para a warp arena!"
+EnviarTitle: true
+Title: "\xa7aVOC\xc3\u0160 FOI TELEPORTADO"
+SubTitle: "\xa7ePARA A WARP arena"
+MensagemPlayerTeleportado: "\xa7aVoc\xc3\xaa foi teleportado para a warp arena!"
+MensagemPlayerTeleportadoStaff: "\xa7a%player% teleportado com sucesso para a warp\
+  \ arena."

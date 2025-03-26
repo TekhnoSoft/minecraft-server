@@ -1,0 +1,12 @@
+# Plugin criado por ViniPlugner
+
+# Mensagens
+Mensagens:
+  Utilize: '&cUtilize /givebook <player> <tipo> <nivel>.'
+  SemPermissao: '&cVocê não possui permissão.'
+  PlayerNaoEncontrado: '&cJogador não encontrado.'
+  ApenasNumeros: '&cUtilize apenas números na quantia!'
+  EncantamentoNaoEncontrado: '&cEste encantamento não existe!'
+  GivouItem: '&aVocê deu um livro ao player @player contendo o encantamento @encantamento.'
+  NaoEncantaEsteItem: '&cO encantamento @encantamento só encanta itens do tipo: @tipo.'
+  JaPossuiEsteEncantamento: '&cO item já possui o encantamento @encantamento.'

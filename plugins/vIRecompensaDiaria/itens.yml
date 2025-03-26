@@ -1,0 +1,67 @@
+# NomeItem:
+#   01:
+#     id: ID:DATA (Obrigatorio)
+#     quantidade: QUANTIDADE --> (Obrigatorio)
+#     fisico: true (Obrigatorio) --> O player vai receber este item, ou ele so vai executar comandos?
+#     nome: 'Nome customizado' (Obrigatorio)
+#     lore: (Opcional)
+#     - 'line1' 
+#     - 'line2...'
+#     enchants: ENCHANTNAME:LEVEL,ENCHANTNAME:LEVEL (Opcional)
+#     comandos: (Opcional)
+#     - 'say @player ganhou um item! yeah!'
+#     - 'say @player ...'
+#
+#
+#
+itens:
+  Item01:
+    id: 257
+    quantidade: 1
+    fisico: true
+    nome: '&rPicareta de Ferro'
+    enchants: efficiency:3
+  Item02:
+    id: 278
+    quantidade: 1
+    fisico: true
+    nome: '&rPicareta de Diamante'
+  Item03:
+    id: 322
+    quantidade: 5
+    fisico: true
+    nome: '&bMaca Dourada'
+  Item04:
+    id: 384
+    quantidade: 64
+    fisico: true
+    nome: '&rFrasco de Encantamentos'
+  Item05:
+    id: 266
+    quantidade: 1
+    fisico: false
+    nome: '&e1000$ &7(1.000Coins)'
+    comandos:
+    - 'money give @player 1000'
+  Item06:
+    id: 311
+    quantidade: 1
+    fisico: true
+    nome: '&bPeitoral p4'
+    enchants: protection:4,unbreaking:3
+  Item07:
+    id: 310
+    quantidade: 1
+    fisico: true
+    nome: '&bCapacete P4'
+    enchants: protection:4,unbreaking:3
+  Item08:
+    id: 264
+    quantidade: 16
+    fisico: true
+    nome: '&rDiamante'
+  Item09:
+    id: 138
+    quantidade: 1
+    fisico: true
+    nome: '&rSinalizador'

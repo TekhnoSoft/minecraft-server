@@ -1,0 +1,15 @@
+Localizacao: Spawn,64.76070125374412,79.0,14.200417500514986,270.44998,-1.2000045
+Permissao: system.warp.spawn
+MensagemSemPermissao: "\xa7cVoc\xc3\xaa n\xc3\xa3o tem permiss\xc3\xa3o para se teleportar\
+  \ para a warp spawn."
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: "\xa7aVoc\xc3\xaa sera teleportado para a warp spawn em 5 segundos!"
+MensagemFinal: "\xa7aTeleportado com sucesso para a warp spawn!"
+EnviarTitle: true
+Title: "\xa7aVOC\xc3\u0160 FOI TELEPORTADO"
+SubTitle: "\xa7ePARA A WARP spawn"
+MensagemPlayerTeleportado: "\xa7aVoc\xc3\xaa foi teleportado para a warp spawn!"
+MensagemPlayerTeleportadoStaff: "\xa7a%player% teleportado com sucesso para a warp\
+  \ spawn."

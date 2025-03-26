@@ -1,0 +1,76 @@
+########################[ TryPrefixos ]#############################
+##                                                                ##
+##                       Autor: Coelho                            ##
+##                         Versao: 2.0                            ##
+##                                                                ##
+##                    Site: www.try-dev.com                       ##
+##                                                                ##
+##           Compativel com mamba factions e simpleclans          ##
+####################################################################
+
+Configuracoes:
+ AtivarTab: false
+ LinhaI: '\n&6&lTRY DEV\n &ftry-dev.com\n'
+ LinhaII: '\n&6Twitter: &ftwitter.com/TryDev\n&6Discord: &7https://discord.gg/FB7KSmV\n &eAdquira VIP e Cash acessando: &7try-dev.com   \n&6'
+
+grupos:
+  Ceo:
+    prefix: '&6[CEO] '
+    position: a
+    suffix: '@fac'
+  Diretor:
+    prefix: '&3[Diretor] '
+    position: b
+    suffix: '@fac'
+  Admin:
+    prefix: '&c[Admin] '
+    position: c
+    suffix: '@fac'
+  Gerente:
+    prefix: '&4[Gerente] '
+    position: d
+    suffix: '@fac'
+  ModGC:
+    prefix: '&5[ModeradorGC] '
+    position: e
+    suffix: '@fac'
+  Mod:
+    prefix: '&2[Moderador] '
+    position: f
+    suffix: '@fac'
+  Builder:
+    prefix: '&a[Construtor] '
+    position: g
+    suffix: '@fac'
+  Ajudante:
+    prefix: '&e[Ajudante] '
+    position: h
+    suffix: '@fac'
+  Estagiario:
+    prefix: '&d[Estagiario] '
+    position: i
+    suffix: '@fac'
+  Youtuber:
+    prefix: '&c[YouTuber] '
+    position: j
+    suffix: '@fac'
+  MiniYT:
+    prefix: '&c[MiniYT] '
+    position: k
+    suffix: '@fac'
+  BETA:
+    prefix: '&a[BETA] '
+    position: l
+    suffix: '@fac'
+  MVP+:
+    prefix: '&3[MVP+] '
+    position: m
+    suffix: '@fac'
+  MVP:
+    prefix: '&6[MVP] '
+    position: n
+    suffix: '@fac'
+  VIP:
+    prefix: '&b[VIP] '
+    position: o
+    suffix: '@fac'

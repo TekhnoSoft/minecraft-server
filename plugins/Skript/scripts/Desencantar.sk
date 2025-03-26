@@ -1,0 +1,60 @@
+options:
+#==++---------------------++==#
+#         CONFIGURAÇÕES       #
+#==++---------------------++==#
+
+	Preço_Membro: 2000
+	
+	VIP_PAGA: Não # Sim ou não.
+	Preço_VIP: 1000
+	
+#==++---------------------++==#
+#          MENSAGENS          #
+#==++---------------------++==#
+
+# Caso a opção 'VIP_PAGA' estiver 'não'.
+	Mensagem.1: &aVocê retirou os encantamentos de seus itens gratuitamente.
+# Caso contrário.
+	Mensagem.2: &aVocê retirou os encantamentos de seus itens por %{preço_VIP}% coins.
+
+# Caso o /desencantar seja apenas para VIPs.
+	Mensagem.3: &cDesculpe, este comando é apenas para jogadores VIPs.
+	Permissão: redeonix.desencantar
+# Caso contrário.
+	Mensagem.4: &aVocê retirou os encantamentos de seus itens por %{preço}% coins.
+	
+# Caso o jogador não tenha coins suficientes.
+	Sem_Coins: &cVocê não possui coins suficientes para desencantar isto.
+	
+#==++---------------------++==#
+#         CÓDIGO-FONTE        #
+#==++---------------------++==#
+
+command /desencantar:
+	trigger:
+		if player is holding air:
+			send "&cVocê não possui um item para desencantar."
+			stop
+		if player's tool is enchanted:
+			if player's balance >= {@Preço_Membro}:
+				remove {@Preço_Membro} from player's balance
+				set {preço_VIP} to "{@Preço_VIP}"
+				send "{@Mensagem.2}"
+				disenchant the player's tool
+				stop
+			else:
+				if "{@VIP_PAGA}" = "Sim":
+					if player's balance >= {@Preço_VIP}:
+						remove {@Preço_VIP} from player's balance
+						set {preço_VIP} to "{@Preço_VIP}"
+						send "{@Mensagem.2}"
+						disenchant the player's tool
+						stop
+					else:
+						send "{@Sem_Coins}"
+				else:
+					send "{@Mensagem.1}"
+					disenchant the player's tool
+					stop
+		else:
+			send "&cEste item não possui nenhum encantamento."

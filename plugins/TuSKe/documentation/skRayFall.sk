@@ -1,0 +1,329 @@
+Events:
+	On Crafting Click:
+		Patterns:
+			[on] crafting click in slot %number%
+		Event values:
+			event-itemstack
+			event-recipe
+			event-player
+			event-world
+		Cancellable: true
+Conditions:
+	CondisNPC:
+		Patterns:
+			%entity% is [a] (npc|citizen)
+	CondisNPCIdGeneral:
+		Patterns:
+			%entity% is (citizen|npc) %number%
+	CondisNPCNamed:
+		Patterns:
+			(NPC|Citizen)['s] [is] name[d] [is] %string%
+	CondisNPCid:
+		Patterns:
+			(NPC|Citizen) is %number%
+	CondisScoreboardSet:
+		Patterns:
+			side bar is set for %player%
+Effects:
+	EffActionBarV1_8_4:
+		Patterns:
+			set action bar of %players% to %string%
+			set %player%['s] action bar to %string%
+	EffAddPlayerToGroupID:
+		Patterns:
+			add %player% to group score [with id] %string%
+	EffBoundHoloObject:
+		Patterns:
+			create bound holo object %string% with id %string% to %entity% [offset by %number%, %number%( and|,) %number%]
+	EffCitizenAttack:
+		Patterns:
+			make citizen %number% (attack|fight) %entity%
+	EffCitizenHold:
+		Patterns:
+			make citizen %number% hold [an] %itemstack%
+	EffCitizenLookTarget:
+		Patterns:
+			make citizen %number% look at %location%
+	EffCitizenMove:
+		Patterns:
+			move citizen %number% to %location% [at speed %number%]
+	EffCitizenNameVisable:
+		Patterns:
+			(set|make) citizen[s] %number% nametag (1¦invisible|0¦visible)
+	EffCitizenSetMaxHealth:
+		Patterns:
+			(set|make) citizen[s] %number% max health [to] %number%
+	EffCitizenSetSkin:
+		Patterns:
+			change citizen %number% skin to %string%
+	EffCitizenSleep:
+		Patterns:
+			(make|force) (npc|citizen) with id %number% to sleep
+			(make|force) (npc|citizen) with id %number% to wake up
+	EffCitizenSpeak:
+		Patterns:
+			make citizen %number% (say|communicate) %string% to %livingentities%
+	EffCitizenVulnerablity:
+		Patterns:
+			make citizen %number% (1¦invulnerable|0¦vulnerable)
+	EffClientsideStaticParticles:
+		Patterns:
+			(create|display|show) %number% [of] %effectlibparticle% particle[s] at %location% for %player% [with data of %-itemstack%] [offset by %number%, %number%(,| and) %number%] [(with|at) speed %number%]
+	EffCreateCitizen:
+		Patterns:
+			create [a] citizen named %string% (at|%direction%) %location% [as (a|an) %entitytypes%]
+	EffCreateGroupIDScore:
+		Patterns:
+			(set|create) group id [based] score %string% in sidebar for %players% to %number% with id %string%
+	EffCreateInteractiveStaticHolograms:
+		Patterns:
+			create interactive holo object %string% with id %string% at %location%
+	EffCreateStaticHoloObject:
+		Patterns:
+			create holo object %string% with id %string% at %location%
+	EffDeleteCitizen:
+		Patterns:
+			(remove|destroy) citizen %number%
+	EffDeleteEffect:
+		Patterns:
+			(delete|stop) (effect|formation) %string%
+	EffDeleteHoloObject:
+		Patterns:
+			delete holo object %string%
+	EffDeleteHoloObject:
+		Patterns:
+			delete holo object %string%
+	EffDeleteHoloObjectLine:
+		Patterns:
+			(delete|remove) line %number% in holo object %string%
+	EffDeleteIdScore:
+		Patterns:
+			(delete|remove) score [with] id %string%
+	EffDeleteScore:
+		Patterns:
+			delete score %string% in sidebar of %player%
+	EffDespawnCitizen:
+		Patterns:
+			despawn citizen %number%
+	EffEditGroupIDScore:
+		Patterns:
+			(edit|update) score [with][in] group [id] %string% to %string% and %number%
+	EffEditHoloObject:
+		Patterns:
+			edit holo object %string% to %string% [and set interactivity to %-boolean%]
+	EffEditHoloObjectLine:
+		Patterns:
+			edit holo object %string% [with] line [number] %number% to %string% [and set interactivity to %-boolean%]
+	EffEditIDScore:
+		Patterns:
+			(edit|update) score [with] id %string% to %string% and %number%
+	EffEffectLibAnimatedBallEffect:
+		Patterns:
+			(spawn|create|apply) (a|the|an) animated ball (effect|formation) (at|on|for|to) %entity/location% with id %string% [with particle %-effectlibparticle%] [offset by %number%, %number%(,| and) %number%]
+	EffEffectLibArc:
+		Patterns:
+			(spawn|create|apply) (a|the|an) arc (effect|formation) from %entity/location% to %entity/location% with id %string% [with particle[s] %-effectlibparticle%] [%number% high] [and %number% particles]
+	EffEffectLibAtom:
+		Patterns:
+			(spawn|create|apply) (a|the|an) atom (effect|formation) (at|on|for|to) %entity/location% with id %string%
+	EffEffectLibBleed:
+		Patterns:
+			(spawn|create|apply) (a|the|an) bleed (effect|formation) (at|on|for|to) %entity/location% with id %string%
+	EffEffectLibCircle:
+		Patterns:
+			(spawn|create|apply) (a|the|an) circle (effect|formation) (at|on|for) %entity/location% with id %string% [with particle[s] %-effectlibparticle%] [(and|with) radius %-number%]
+	EffEffectLibLine:
+		Patterns:
+			(spawn|create|apply) (a|the|an) line (effect|formation) from %entity/location% to %entity/location% with id %string% [with particle[s] %-effectlibparticle%]
+	EffEffectLibText:
+		Patterns:
+			(spawn|create|apply) (a|the|an) text (effect|formation) with text %string% as %effectlibparticle% (at|on|for|to) %entities/location% with id %string%[(,| and) %number% large]
+	EffEffectLibWave:
+		Patterns:
+			(spawn|create|apply) (a|the|an) wave (effect|formation) at %entity/location% with id %string% [with particle[s] %-effectlibparticle%]
+	EffEffectTornado:
+		Patterns:
+			(spawn|create|apply) (a|the|an) tornado (effect|formation) at %entity/location% with id %string% [with tornado particle[s] %-effectlibparticle% and cloud particle[s] %-effectlibparticle%] [(set|and) radius %number%] [(set|and) max height %number%]
+	EffEquipCitizen:
+		Patterns:
+			(equip|give) citizen %number% with [an] %itemstack%
+	EffFakeFakeLightning:
+		Patterns:
+			(create|strike) (fake|ultra|no sound) fake lightning at %location%
+	EffGiveLookCloseTrait:
+		Patterns:
+			(give|set) npc %number% the look close trait
+	EffMaxHealth:
+		Patterns:
+			set rf max[imum] h(p|ealth) of %livingentities% to %number%
+	EffNameOfScore:
+		Patterns:
+			set name of sidebar (of|for) %players% to %string%
+	EffParticlesV1_8_4:
+		Patterns:
+			show %number% %string% particle[s] at %location% for %player% [offset by %number%, %number%( and|,) %number%]
+	EffPlayResourcePackSound:
+		Patterns:
+			play (resource|[custom ]sound) [sound] pack %string% to %player% [at %-location%] [(and|with) volume %number%] [(and|with) pitch %number%]
+	EffPlaySoundPacket:
+		Patterns:
+			play %string% to %players% [at volume %number%]
+	EffRemovePlayerFromIDScore:
+		Patterns:
+			(delete|remove) %player% from group [id based] score %string%
+	EffRemoveScoreBelowName:
+		Patterns:
+			(wipe|erase) below score[s] for %player%
+	EffRemoveScoreTab:
+		Patterns:
+			(wipe|erase|delete) %player%['s] tab[list]
+	EffRemoveScoreboard:
+		Patterns:
+			(wipe|erase|delete) %player%['s] sidebar
+	EffSetCitizenName:
+		Patterns:
+			(set|make) citizen[s] %number% name to %string%
+	EffSetIDBasedScore:
+		Patterns:
+			(set|create) id [based] score %string% in sidebar of %player% to %number% with id %string%
+	EffSetMetaData:
+		Patterns:
+			set meta %string% for %entity% to %string%
+	EffSetPlayerListName:
+		Patterns:
+			set %player% tab name to %string%
+	EffSetScore:
+		Patterns:
+			set score %string% in sidebar of %player% to %number%
+	EffSetScoreBelowName:
+		Patterns:
+			set score %string% below %player% to %number% for %player%
+	EffSetScoreTab:
+		Patterns:
+			set tab[list] score of %player% to %number% for %player%
+	EffSpawnCitizen:
+		Patterns:
+			respawn citizen %number% (at|%direction%) %location%
+	EffStaticParticles:
+		Patterns:
+			(create|display|show) %number% [of] %effectlibparticle% particle[s] at %location% [(with data of %-itemstack%|with color %number%, %number%(,| and) %number%)] [offset by %number%, %number%(,| and) %number%] [(with|at) speed %number%]
+	EffTabTitlesV1_8_4:
+		Patterns:
+			set tab header to %string% and footer to %string% for %player%
+	EffTimedBindedHolo:
+		Patterns:
+			bind hologram %string% to %entity% for %timespan% [offset by %number%, %number%( and|,) %number%]
+	EffTimedHologram:
+		Patterns:
+			create hologram %string% at %location% for %timespan%
+	EffTitleV1_8_4:
+		Patterns:
+			send %players% title %string% [with subtitle %-string%] [for %-timespan%] [with %-timespan% fade in and %-timespan% fade out]
+	RemoveGroupIDScore:
+		Patterns:
+			(delete|remove) score[s] [with] group id %string%
+Expressions:
+	ExprAbsoluteInventoryCount:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			(absolute|complex|abs) number of %itemstack% in %player%['s] (inventory|inv)
+	ExprArmorValue:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			%player%['s] armo[u]r value
+	ExprCitizenIDFromEntity:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			citizen id of %entity%
+	ExprGeneralCitizen:
+		Return type: Entity
+		Changers:
+			add
+			remove
+			remove all
+		Patterns:
+			citizen %number%
+	ExprGetHoloLine:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			text in line %number% of holo[gram] [object] %string%
+	ExprLastCitizen:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			last created citizen [id]
+	ExprMetaData:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			meta %string% for %entity%
+	ExprNameOfCitizen:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			name of citizen %number%
+	ExprNoNBT:
+		Return type: Item / Material
+		Changers:
+			none
+		Patterns:
+			%itemstacks% with no nbt
+	ExprNumberOfEnchants:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			number of enchant[ment]s on %itemstack%
+	ExprOwnerOfCitizen:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			owner of (citizen|npc) %number%
+	ExprScoreNameFromGroupID:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			group score (name|title) (of|from) id %string%
+	ExprScoreNameFromID:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			score (name|title) (of|from) id %string%
+	ExprScoreValueFromGroupID:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			group score (value|number) (of|from) id %string%
+	ExprScoreValueFromID:
+		Return type: Number
+		Changers:
+			none
+		Patterns:
+			score (value|number) (of|from) id %string%
+	ExprShinyItem:
+		Return type: Item / Material
+		Changers:
+			none
+		Patterns:
+			shiny %itemstacks%
+	ExprSpecificEnchantIndex:
+		Return type: Text
+		Changers:
+			none
+		Patterns:
+			info of enchant[ment] %number% (of|on) %itemstack%

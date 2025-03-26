@@ -1,0 +1,63 @@
+# name: OnixnPacotes
+# author: _oCanada_
+# version: 2.0
+
+command /givepacote [<player>] [<text>]:
+	permission: redeonix.pacote
+	permission message: &cVocê precisa ser [Admin] ou superior para usar este comando.
+	trigger:
+		if arg 1 is not set:
+			send "&aUse /givepacote <jogador> <tipo>."
+			stop
+		if arg 2 is not set:
+			send "&aUse /givepacote <jogador> <tipo>."
+			stop
+		if arg 1 is not online:
+			send "&cUsuário se encontra offline."
+			stop
+		if arg 2 is not "Estrelar" or "Magico" or "Divino":
+			open chest with 5 rows named "&7Pacotes Disponíveis" to player
+			wait 5 ticks
+			format slot 20 of player with nether star named "&9Pacote Estrelar" with lore "&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Estrelar(P4)||&e* Peitoral Estrelar(P4)||&e* Calça Estrelar(P4)||&e* Bota Estrelar(P4)" to run [make console execute command ""]
+			format slot 22 of player with blaze rod named "&5Pacote Magico" with lore "&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Mágico(P5)||&e* Peitoral Mágico(P5)||&e* Calça Mágica(P5)||&e* Bota Mágica(P5)" to run [make console execute command ""]
+			format slot 24 of player with blaze powder named "&9Pacote Divino" with lore "&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Divino(P6)||&e* Peitoral Divino(P6)||&e* Calça Divina(P6)||&e* Bota Divina(P6)" to run [make console execute command ""]
+			stop
+		if arg 2 is "Estrelar":
+			give 1 nether star of unbreaking 1 named "&9Pacote Estrelar" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Estrelar(P4)||&e* Peitoral Estrelar(P4)||&e* Calça Estrelar(P4)||&e* Bota Estrelar(P4)" to player
+			stop
+		if arg 2 is "Magico":
+			give 1 blaze rod of unbreaking 1 named "&5Pacote Magico" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Magico(P5)||&e* Peitoral Magico(P5)||&e* Calça Magico(P5)||&e* Bota Magico(P5)" to player
+			stop
+		if arg 2 is "Divino":
+			give 1 blaze powder of unbreaking 1 named "&6Pacote Divino" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Divino(P6)||&e* Peitoral Divino(P6)||&e* Calça Divino(P6)||&e* Bota Divino(P6)" to player
+			stop
+			
+on rightclick:
+	if player is holding a nether star named "&9Pacote Estrelar" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Estrelar(P4)||&e* Peitoral Estrelar(P4)||&e* Calça Estrelar(P4)||&e* Bota Estrelar(P4)":
+		remove 1 nether star  named "&9Pacote Estrelar" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Estrelar(P4)||&e* Peitoral Estrelar(P4)||&e* Calça Estrelar(P4)||&e* Bota Estrelar(P4)" from player
+		give a diamond helmet of protection 4 and unbreaking 3 named "&3Capacete Estrelar" to player
+		give a diamond chestplate of protection 4 and unbreaking 3 named "&3Peitoral Estrelar" to player
+		give a diamond leggings of protection 4 and unbreaking 3 named "&3Calça Estrelar" to player
+		give a diamond boots of protection 4 and unbreaking 3 named "&3Bota Estrelar" to player
+		send "&aVocê abriu o pacote com sucesso." to player
+		stop
+		
+on rightclick:		
+	if player is holding a blaze rod named "&5Pacote Magico" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Magico(P5)||&e* Peitoral Magico(P5)||&e* Calça Magico(P5)||&e* Bota Magico(P5)":
+		remove 1 blaze rod named "&5Pacote Magico" with lore "&5Pacote Magico" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Magico(P5)||&e* Peitoral Magico(P5)||&e* Calça Magico(P5)||&e* Bota Magico(P5)" from player
+		give a diamond helmet of protection 5 and unbreaking 3 named "&3Capacete Magico" to player
+		give a diamond chestplate of protection 5 and unbreaking 3 named "&3Peitoral Magico" to player
+		give a diamond leggings of protection 5 and unbreaking 3 named "&3Calça Magico" to player
+		give a diamond boots of protection 5 and unbreaking 3 named "&3Bota Magico" to player
+		send "&aVocê abriu o pacote com sucesso." to player
+		stop
+		
+on rightclick:		
+	if player is holding a blaze powder named "&6Pacote Divino" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Divino(P6)||&e* Peitoral Divino(P6)||&e* Calça Divino(P6)||&e* Bota Divino(P6)":
+		remove 1 blaze powder  named "&6Pacote Divino" with lore "||&7Este pacote contém os equipamentos||&7secretos do rei Algol.||||&7Conteúdo:||&e* Capacete Divino(P6)||&e* Peitoral Divino(P6)||&e* Calça Divino(P6)||&e* Bota Divino(P6)" from player
+		give a diamond helmet of protection 6 and unbreaking 3 named "&3Capacete Divino" to player
+		give a diamond chestplate of protection 6 and unbreaking 3 named "&3Peitoral Divino" to player
+		give a diamond leggings of protection 6 and unbreaking 3 named "&3Calça Divina" to player
+		give a diamond boots of protection 6 and unbreaking 3 named "&3Bota Divina" to player
+		send "&aVocê abriu o pacote com sucesso." to player
+		stop

@@ -1,0 +1,92 @@
+﻿command /suporte [<text>] [<integer>]:
+	permission: redeonix.suporte
+	permission message: &cVocê não possui permissão para isto.
+	aliases: duvida, ajuda
+	trigger:
+		if arg 1 isn't set:
+			send "&cUtilize /suporte <mensagem>."
+		else if arg 1 is set:
+			if arg 1 != "ver" or "list":
+				set {_cooldown} to difference between {Tempo.cooldown::%player%} and now
+				if {_cooldown} is less than 1 minute:
+					set {_text} to "%difference between 1 minute and {_cooldown}%"
+					replace all "second" with "segundo" in {_text}
+					replace all "minute" with "minuto" in {_text}
+					replace all "hour" with "hora" in {_text}
+					replace all "and" with "e" in {_text}
+					send "&cAguarde %{_text}% para usar o suporte novamente."
+					stop
+				set {ID} to random integer between 0 and 450
+				if "%{suporte::*}%" contains "%{ID}%":
+					execute player command "suporte %arg-1%"
+					stop
+				add {ID} to {suporte::*}
+				set {Tempo.cooldown::%player%} to now
+				set {suporte.p.%{ID}%} to player
+				set {suporte.m.%{ID}%} to "%arg-1%"
+				send "&aVocê criou um novo pedido de suporte, aguarde respostas."
+				play "ORB_PICKUP" to player at volume 1.0
+				loop all players:
+					if loop-player has permission " redeonix.recebersuporte":
+						send "" to loop-player
+						send "&aPedido de suporte!" to loop-player
+						send "" to loop-player
+						send "  &6* &fID: &e##%{ID}%" to loop-player
+						send "  &6* &fDúvida: &e%arg-1%" to loop-player
+						send "  &6* &fJogador: &e%player%" to loop-player
+						send "" to loop-player
+						send "&6Utilize &f/suporte ver %{ID}% &6para vê-lo." to loop-player
+						play "NOTE_PLING" to loop-player at volume 1.0
+			else if arg 1 = "ver":
+				if player doesn't have permission "redeonix.versuporte":
+					send "&cVocê não possui permissão para isto."
+				else if player has permission " redeonix.versuporte":
+					if arg 2 isn't set:
+						send "&cUtilize /suporte ver <id>."
+					else if arg 2 is set:
+						if "%{suporte::*}%" contains "%arg-2%":
+							send ""
+							send "&a&lPedido de suporte"
+							send ""
+							send "  &6* &fID: &e##%arg-2%"
+							send "  &6* &fDúvida: &e%{suporte.m.%arg-2%}%"
+							send "  &6* &fJogador: &e%{suporte.p.%arg-2%}%"
+							send ""
+						else if "%{suporte::*}%" doesn't contain "%arg-2%":
+							send "&cOcorreu um erro: Nenhuma dúvida encontrada com o ID ##%arg-2%."
+			else if arg 1 = "list":
+				if player doesn't have permission " redeonix.listasuporte":
+					send "&cVocê não possui permissão para isto."
+				else if player has permission  redeonix.listasuporte":
+					if {suporte::*} is set:
+						send ""
+						loop {suporte::*}:
+							send "&f- &eID: &f%loop-value% &7| &ePlayer: &f%{suporte.p.%loop-value%}%"
+						send ""
+						send "&6Utilize /suporte ver <ID> para mais informações."
+					else:
+						send "&cNão há dúvidas pendentes."
+					
+command /responder [<integer>] [<text>]:
+	permission:  redeonix.respondersuporte
+	permission message: &cVocê não possui permissão para isto.
+	aliases: rspd
+	trigger:
+		if arg 1 isn't set:
+			send "&cUtilize /responder <ID> <resposta>."
+		else if arg 1 is set:
+			if arg 2 isn't set:
+				send "&cUtilize /responder <ID> <resposta>."
+			else if arg 2 is set:
+				if "%{suporte::*}%" contains "%arg-1%":
+					send "&e&lSUPORTE &8» &fRespondido(a)."
+					send "" to {suporte.p.%arg-1%}
+					send "&6* ID: &f##%arg-1%" to {suporte.p.%arg-1%}
+					send "&6* Resposta: &f%arg-2%" to {suporte.p.%arg-1%}
+					send "&6* Autor: &f%colored player's prefix% %player%" to {suporte.p.%arg-1%}
+					send "" to {suporte.p.%arg-1%}
+					play "ORB_PICKUP" to {suporte.p.%arg-1%} at volume 1.0
+					remove all arg 1 from {suporte::*}
+					send "&aVocê respondeu a dúvida do jogador &f%{suporte.p.%arg-1%}%"
+				else if "%{suporte::*}%" doesn't contain "%arg-1%":
+					send "&cNão existe um suporte com o ID ##%arg-1%."

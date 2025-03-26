@@ -1,0 +1,13 @@
+# name: OnixStaffChat
+# version: 1.0
+# author: _oCanada_
+command /sc [<text>]:
+	permission: redeonix.staffchat
+	permission message: &cVocê precisa ser &e[Ajudante]&c ou superior para digitar aqui!
+	trigger:
+		if arg 1 is set:
+			loop all players:
+				loop-player has permission "redeonix.staffchat":
+					send "&c[EQUIPE] %coloured player's prefix% %player%&7: &f%arg%" to loop-player
+		else:
+			send "&cSintaxe INCORRETA! Utilize /sc [MSG]!"	

@@ -1,0 +1,3 @@
+﻿on craft Beacon:
+	cancel event
+	message "&cVocê não pode craftar, apenas comprar!" to player

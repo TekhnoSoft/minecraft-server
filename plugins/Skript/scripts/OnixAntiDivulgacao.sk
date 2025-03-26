@@ -1,0 +1,7 @@
+# name: OnixAntiDivulgacao
+# version: 1.0
+# author: _oCanada_
+on chat:
+	if message contains ".com.br", ".serv.nu", ".ultrahost.com", ".reis.host", ".batt.host", ".reishosting.com.br",".pvp.host", ".zumbi.host", "jogar.", ".com", ".enxadahost", ".net", "cookiehosting.net" or ".playbr.net":
+		cancel event
+		send message "&cOPS... nós apresentamos um sistema de anti-divulgação de servidores."

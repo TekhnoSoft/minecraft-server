@@ -1,0 +1,13 @@
+# name: OnixnRenomear
+# version: 1.0
+# author: _oCanada_
+
+command /renomear [<text>]:
+	permission: redeonix.renomear
+	permission message: &cVocê não possui permissão para usar este comando.
+	trigger:
+		if arg 1 is set:
+			set name of held item to "%colored arg 1%"
+			send "&aItem nomeado com sucesso."
+		if arg 1 is not set:	
+			send "&cUse /renomear <nome>."

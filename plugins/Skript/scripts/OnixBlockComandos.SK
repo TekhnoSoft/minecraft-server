@@ -1,0 +1,172 @@
+command //calc [<text>]:
+	trigger:
+		send ""
+		send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+		send ""
+		
+command //eval [<text>]:
+	trigger:
+		send ""
+		send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+		send ""
+		
+command //evaluate [<text>]:
+	trigger:
+		send ""
+		send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+		send ""
+		
+command //calculate [<text>]:
+	trigger:
+		send ""
+		send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+		send ""
+
+command //cyl [<text>]:
+	trigger:
+		send ""
+		send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+		send ""
+
+command //hcyl [<text>]:
+	trigger:
+		send ""
+		send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+		send ""
+		
+on command "/msg console":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/tell console":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/whisper console":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/t console":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/m console":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/w console":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/clan home regroup":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/chestshop":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event    
+on command "/version":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event 	
+on command "/seed":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event 
+on command "/clan regroup":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/bukkit:help":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event   	
+on command "/bukkit:?":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event 
+on command "/bukkit":
+    cancel event   
+on command "/help":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event	
+on command "/ver":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/minecraft:me":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/me":
+	send ""
+	send " &c&lREDEMASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/bukkit:reload":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/bukkit:op":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/minecraft:op":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/bukkit:deop":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/minecraft:deop":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/chestshop reload":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/? ":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/bukkit:about ":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""
+	cancel event
+on command "/legendchat:b":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send "" 
+	cancel event	
+on command "/? ":
+	send ""
+	send " &c&lREDE MASTER: &cDesculpe, voce nao tem permissao para isso."
+	send ""

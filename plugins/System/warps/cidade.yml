@@ -1,0 +1,15 @@
+Localizacao: MundoTerreno,38.15918642270239,53.0,-2474.551445300813,118.34491,-3.049122
+Permissao: system.warp.cidade
+MensagemSemPermissao: "\xa7cVoc\xc3\xaa n\xc3\xa3o tem permiss\xc3\xa3o para se teleportar\
+  \ para a warp cidade."
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: "\xa7aVoc\xc3\xaa sera teleportado para a warp cidade em 5 segundos!"
+MensagemFinal: "\xa7aTeleportado com sucesso para a warp cidade!"
+EnviarTitle: true
+Title: "\xa7aVOC\xc3\u0160 FOI TELEPORTADO"
+SubTitle: "\xa7ePARA A WARP cidade"
+MensagemPlayerTeleportado: "\xa7aVoc\xc3\xaa foi teleportado para a warp cidade!"
+MensagemPlayerTeleportadoStaff: "\xa7a%player% teleportado com sucesso para a warp\
+  \ cidade."

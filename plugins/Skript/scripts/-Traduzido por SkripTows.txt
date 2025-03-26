@@ -1,0 +1,34 @@
+#  ▒██████████ 									 ▒██████████										
+#  ▒██     ▒██ ▒██   ▒██  ▒██████   ▒██ ▒██████   	 ▒██	▒████████ ▒██        ▒██         ▒██ ▒████████
+#  ▒██  	   ▒██ ▒██    ▒██   ▒██ ▒██ ▒██   ▒██    ▒██    ▒██   ▒██ ▒██       ▒██▒██	  	 ▒██ ▒██    ▀▀
+#  ▒██████████ ▒████      ▒██   ▒██ ▒██ ▒██   ▒██    ▒██    ▒██	  ▒██	▒██    ▒██  ▒██	   ▒██	 ▒████████
+#		   ▒██ ▒██ ▒██    ▒██████   ▒██ ▒██████      ▒██    ▒██   ▒██	 ▒██  ▒██	 ▒██  ▒██          ▒██	
+#  ▒██     ▒██ ▒██   ▒██  ▒██   ▒██ ▒██ ▒██          ▒██    ▒██   ▒██	  ▒██▒██	  ▒██▒██	 ▒██   ▒██
+#  ▒██████████ ▒██   ▒██  ▒██   ▒██ ▒██ ▒██          ▒██    ▒████████	   ▒██		 	▒██      ▒████████
+
+#					STowsRPG
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+#                                                     #
+#                » Equipe SkripTows                   #
+#          » Site: www.skriptows.weebly.com           #
+#													  #
+#              » SkripTowsAPI: (site)				  #
+#													  #
+#       » Nossa Equipe sempre disposta a ajudar!	  #
+#													  #
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+# Não tire os creditos.
+
+	Version: 1.0
+	Team: SkripTows
+	Author: Niigote
+	Description: Jar do skript traduzida.
+
+# Linguagens disponíveis:
+#
+# Linguagem: BR (Esse)
+# Linguagem: EN (Vai no site oficial '-')
+
+Este skript foi traduzido pela equipe: SkripTows
+Eu, Niigote, como fundador venho disponibilizar esta jar para todos vocês caso tenham dificuldades com erros e tals.

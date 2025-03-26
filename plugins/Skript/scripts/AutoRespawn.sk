@@ -1,0 +1,22 @@
+options:
+
+# - - - - - - - - CONFIGURAÇÃO - - - - - - - - #
+
+	Tag: &e[AutoRespawn]	
+	Ativar_Msg: true
+	msg-onrespawn: &7Você renasceu automaticamente!
+	
+# - - - - - - - - CONFIGURAÇÃO - - - - - - - - #
+	
+
+# - - - - - - - - CÓDIGO-FONTE - - - - - - - - #
+
+#============================================#
+# Apartir daqui, não edite nada que você não #
+# souber, ou terá chances de bugar o Script! #
+#============================================#
+
+on death:
+	force respawn victim
+	if "{@Ativar_Msg}" is "true":
+		send "{@Tag} {@msg-onrespawn}" to victim

@@ -1,0 +1,19 @@
+# name: OnixnChatVip
+# version: 1.0
+# author: _oCanada_
+command /chatvip [<text>]:
+	trigger:
+		if player has permission "redeonix.chatvip":
+			if arg 1 is set:
+				loop all players:
+					if loop-player has permission "redeonix.chatvip":
+						message "&d[CHATVIP] %colored player's prefix% %player% &7» &b%colored arg-1%" to loop-player
+			else:
+				command "/tm amessage %player% &cUse /chatvip (mensagem)"
+		else:	
+			send ""
+			send " &c&lREDE MASTER"
+			send " &c&l* &aCompre vip em nosso servidor e tenha diversas vantagens!"
+			send " &c&l* &ahttp://loja.redemaster.com.br"
+			send " "
+			
