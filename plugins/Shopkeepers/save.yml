@@ -1,0 +1,325 @@
+'1':
+  uniqueId: 64addbcc-a69f-4e60-8894-65bb7568fc97
+  name: Troca De Fragmentos
+  world: fac
+  x: 69
+  y: 79
+  z: 34
+  type: admin
+  object: villager
+  uuid: 1a96d4ea-b35c-4882-a7f7-d6704e333a6e
+  prof: BUTCHER
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: NETHER_BRICK_ITEM
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7e\xa7lFragmento Comum"
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa78Combustivel"
+          lore:
+          - "\xa77Use nas maquinas!"
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: CLAY_BALL
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFragmento Raro"
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa78Combustivel"
+          lore:
+          - "\xa77Use nas maquinas!"
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: CLAY_BALL
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFragmento Raro"
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: CLAY_BALL
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFragmento Raro"
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa78Combustivel"
+          lore:
+          - "\xa77Use nas maquinas!"
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: CLAY_BALL
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFragmento Raro"
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: CLAY_BALL
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76\xa7lFragmento Raro"
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_CRYSTALS
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lFragmento Lendario"
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_CRYSTALS
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lFragmento Lendario"
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: PRISMARINE_CRYSTALS
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7b\xa7lFragmento Lendario"
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 8
+            DURABILITY: 8
+            LOOT_BONUS_BLOCKS: 5
+'2':
+  uniqueId: bfea52d0-2451-4b3f-9ccd-1b593cb228a6
+  name: Trocador
+  world: Spawn
+  x: -188
+  y: 4
+  z: -275
+  type: admin
+  object: villager
+  uuid: 1ad4229e-2323-43d2-b30b-19a670779a86
+  prof: PRIEST
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eFragmento de Joias"
+          lore:
+          - ''
+          - "\xa7fPara conseguir sua j\xf3ia, utilize o Trocador de Almas."
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 14
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa76J\xf3ia da alma"
+          lore:
+          - "\xa77+ Receba regenera\xe7\xe3o 3 por tempo infinito."
+          enchants:
+            DURABILITY: 1
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eFragmento de Joias"
+          lore:
+          - ''
+          - "\xa7fPara conseguir sua j\xf3ia, utilize o Trocador de Almas."
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa71J\xf3ia do espa\xe7o"
+          lore:
+          - "\xa77+ Receba velocidade 2 por tempo infinito."
+          enchants:
+            DURABILITY: 1
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eFragmento de Joias"
+          lore:
+          - ''
+          - "\xa7fPara conseguir sua j\xf3ia, utilize o Trocador de Almas."
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 11
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eJ\xf3ia da mente"
+          lore:
+          - "\xa77+ Receba pressa 2 por tempo infinito."
+          enchants:
+            DURABILITY: 1
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eFragmento de Joias"
+          lore:
+          - ''
+          - "\xa7fPara conseguir sua j\xf3ia, utilize o Trocador de Almas."
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa75J\xf3ia do poder"
+          lore:
+          - "\xa77+ Receba resitencia 1 por tempo infinito."
+          enchants:
+            DURABILITY: 1
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eFragmento de Joias"
+          lore:
+          - ''
+          - "\xa7fPara conseguir sua j\xf3ia, utilize o Trocador de Almas."
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: REDSTONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7cJ\xf3ia da realidade"
+          lore:
+          - "\xa77+ Receba for\xe7a 2 por tempo infinito."
+          enchants:
+            DURABILITY: 1
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DOUBLE_PLANT
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7eFragmento de Joias"
+          lore:
+          - ''
+          - "\xa7fPara conseguir sua j\xf3ia, utilize o Trocador de Almas."
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "\xa7aJ\xf3ia do tempo"
+          lore:
+          - "\xa77+ Receba super pulo 2 por tempo infinito."
+          enchants:
+            DURABILITY: 1
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null

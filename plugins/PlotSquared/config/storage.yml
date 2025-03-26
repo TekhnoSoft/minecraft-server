@@ -1,0 +1,21 @@
+prefix: "&6[SwiftNetwork]"
+
+# SQLite section
+sqlite:
+  # Should SQLite be used?
+  use: true
+  # The file to use
+  db: "storage"
+
+# MySQL section
+mysql:
+  # Should MySQL be used?
+  use: false
+  host: "169.63.81.76"
+  port: "3306"
+  user: "u5405_nITE1SR1HK"
+  password: "=UfFRA+cidgdZsmiUo9c^pLR"
+  database: "s5405_swiftnetwork"
+  # Set additional properties: https://goo.gl/wngtN8
+  properties: 
+  - "useSSL=false"

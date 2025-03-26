@@ -1,0 +1,5 @@
+# NickUC-Updater é um plugin utilizado para a atualização de plugins NickUC
+# Alguns plugins que utilizam o plugin NickUC-Updater são: [nLogin, nProtect e nAntiTab]
+# O plugin não altera nada no desempenho enquanto não é utilizado, e é baixado automaticamente se a função de atualização está ativada nos plugins listados.
+# OBS: Não é possível desativar os recursos de update no plugin nLogin!
+configVersion: RELEASE-1.7

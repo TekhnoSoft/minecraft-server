@@ -1,0 +1,50 @@
+kick: false
+notify: true
+ban: false
+blacklist: true
+whitelist: false
+only-player-inside-can-join: false
+antibot: true
+antimcleaks: true
+ip-per-house: 1
+mysql: false
+mysql-host: host
+mysql-bdd: mybdd
+mysql-table: novpn
+mysql-user: user
+mysql-password: password
+permission:
+  bypass: novpn.bypass
+  receive_message: novpn.receive
+  check: novpn.check
+  vpban: novpn.vpban
+  vpkick: novpn.vpkick
+  vpblacklist: novpn.vpblacklist
+  vpwhitelist: novpn.vpwhitelist
+  openconfig: novpn.config
+  vpcheckleak: novpn.leakc
+messages:
+  message-kick: '&cYou have been kicked for using VPN.'
+  message-notify: '&c%player% (%IP%) tried to join using vpn!'
+  not_online: '&cThe player is not online.'
+  message-ban: '&cYou have been banned for using VPN.'
+  broadcast: '&7[&c&lNoVPN&7] &eThe player &l&a%player% &eis using &c&lVPN.'
+  vpcheck_message1: '&6=========&6[&aNoVPN&6]========='
+  vpcheck_message2: '&bName: &a%player%'
+  vpcheck_message3: '&bIP: &a%IP%'
+  vpcheck_message4: '&bCountry: &a%country%'
+  vpcheck_message5: '&bVPN: &a%info_vpn%'
+  vpcheck_message6: '&6============================'
+  blacklist-message: '&cYou are in the black list !'
+  addblacklist: '&a%argument% has been added to the blacklist !'
+  removeblacklist: '&a%argument% has been removed to the blacklist !'
+  already-blacklist: '&a%argument% was already in the blacklist!'
+  not-in-blacklist: '&c%argument% is not in blacklist!'
+  whitelist-message: '&cYou are not in the white list !'
+  addwhitelist: '&a%argument% has been added to the whitelist !'
+  removewhitelist: '&a%argument% has been removed to the whitelist !'
+  already-whitelist: '&a%argument% was already in the whitelist!'
+  not-in-whitelist: '&c%argument% is not in whitelist!'
+  bot-kick: '&c[Antibot] Wait for reconnect!'
+  mcleaks-kick: '&cMcLeaks account!'
+  mcleaks-check: '&7[&6%player%&7] &6McLeaks Account : &a%result%'

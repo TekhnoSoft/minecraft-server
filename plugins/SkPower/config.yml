@@ -1,0 +1,19 @@
+#
+# SkPower Configuration File
+#
+# This file is used to configure some Startup thingies,
+# Esta config é usada para configurar algumas coisas no startup,
+#
+# StartupCompat:
+#     If some known Skript Addon has the same Expression/Effect/Condition, this changes the Expression/Effect name to
+#     add the "SkPower" (SkPower create hologram...) before the Effect/Expression/Condition. As for now, only 
+#     SkSpigotAddition conflicts with skPower Holograms Effects/Expressions.
+# 
+# General:
+#     Some changes in the language, and in another things in the SkPower
+#     Localization Supports BR and EN
+StartupCompat:
+    SkSpigotAdditions: false
+    
+General:
+    Localization: BR
