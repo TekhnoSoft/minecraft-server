@@ -1,0 +1,86 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&7[Menu de Kit]'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+  type: CHEST
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'kit;kits;ekit;ekits'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+Rank:
+  LEFT-CLICK-COMMAND: 'open: Classes.yml'
+  RIGHT-CLICK-COMMAND: 'open: Classes.yml'
+  NAME: ' &d[CLASSE] '
+  LORE:
+  - ''
+  - ' &fMenu disponibilizado, para todos os ranks '
+  - ' &fO tempo de cada kit que está citado dentro dessa gui '
+  - ' &fé durante 1 dia, cada dia você podera pegar o kit. '
+  - ' &fAss: &5&lEQUIPE REDE MASTER'
+  - ''
+  ID: 399
+  SLOT: 11
+Vips:
+  LEFT-CLICK-COMMAND: 'open: Vips.yml'
+  RIGHT-CLICK-COMMAND: 'open: Vips.yml'
+  NAME: ' &d[VIP] '
+  LORE:
+  - ''
+  - ' &fMenu disponibilizado, para todos os jogadores que '
+  - ' &fajudam o servidor comprando &5&lVIP &fem nosso site '
+  - ' &5loja.redemaster.com.br '
+  - ' &fAss: &5&lEQUIPE REDE MASTER'
+  - ''
+  ID: 386
+  SLOT: 13
+ 
+Shop:
+  LEFT-CLICK-COMMAND: 'cash'
+  RIGHT-CLICK-COMMAND: 'cash'
+  NAME: ' &d[SHOP] '
+  LORE:
+  - ''
+  - ' &fEsse sistema de shop da &5&lREDE MASTER '
+  - ' &ffunciona claro equivalentemente com cash '
+  - ' &fe para adquirir cash acesse o nosso site '
+  - ' &5loja.redeonix.com.br'
+  - ' &fAss: &5&lEQUIPE REDE MASTER'
+  - ''
+  - ' &f&lCLIQUE COM O BOTÃO ESQUERDO PARA ABRIR '
+  - ''
+  KEEP-OPEN: true
+  ID: 175
+  SLOT: 15

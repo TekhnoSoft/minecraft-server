@@ -1,0 +1,59 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+last-created-npc-id: 22
+npc:
+  '99372':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5NDc4NDM1MzU5MywKICAicHJvZmlsZUlkIiA6ICJjN2ZkZGI5YWFkZmQ0YmUzYjMyNmQ3MDBkZjI1MmU4OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW50YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZjg2NjgyMWJmYmY1MWMwNWZmNzk4YWYxMDk1NzVhZmZhMThjNzc5MTUxODEwYjUyZTk5YzU0N2MzMzc5ZWI3IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: santa
+      cached-skin-uuid: c7fddb9a-adfd-4be3-b326-d700df252e88
+      player-skin-signature: GNLSWkmu+PZ4P827CPqYZEDH9DRj93pW9AGqC0Kikws1GC8YaGfPyXZcvMXEaMfPleP6rDCkJdW2Le2nsxu/j/Qb5ZjrPa+VhgeTHlvhv98Iyqb+AuBTfCNlSOOlcHLxruvpYJT3yGqCOLW0cfM6X97TyWjpyi31MWJAagMvTnY6m66wZvj8dC6DScmbjILTpPW7YE3pABipRsp6CbyJTZCMDwCZeIUTyd+5z8fvllVgVE6375haQDBnLhdRUdUtogqMDAdnWSYXxFwferKS4QO6zuApayWJoASfTSBie7D7az1cCM/H9jTFxT+E26J7BJmNJS2Z0gWmO8la4edGIqBg7O1ZnGxPRGri7aRkVv/xt4oZbfXN9mTGMPQk6WjYDZBiZP/WW0zw7SqOVyTekBFwR/Or0h+802kAalRJDDZDnkitT21SH0Oir+B+YPLdY1/tD4U3rmq5/LSQvU09KJKn5aWcV+T3MsXtSUcqr9BSO6V9eGdm5RJoKlas4NVi9e/XAznO/vTHqVA50Qz2kEQ5npK5DGK3zvg+3aU3pkkE3/yvh5JmkJzt03vhzYit/fiOvGVo/drdf4iZYUEVjWpRm8sHxznXfqwpDiQ5zCatWq10iEwqfEgAncHi3YH5UhC31bafKt8cjst+Zm2rFWBCHtOwt7/mN4VrnVCQbT4=
+    name: "\xa76Leiloador"
+    uuid: def0e0bb-4295-4050-9dfd-d55e03e9e160
+    traits:
+      inventory: {}
+      location:
+        world: Spawn
+        x: '-6.633299989748673'
+        y: '79.0'
+        z: '14.543087320754147'
+        yaw: '270.14971923828125'
+        pitch: '2.5499820709228516'
+      spawned: true
+    traitnames: inventory,type,location,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5NDc4NDM1MjY1NSwKICAicHJvZmlsZUlkIiA6ICIwN2U2MzUxNDUzNzU0OWYyYjkwYjUyNzIyM2FiMGJkMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZXRhcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMjEzODk0MDExYWQ0MWJkZjI3OTMzMjljYmU4NDU3NmU3YjIwMjYxNzU5N2E4NTdjNzQ0NDY0ZGY1YjBhYjBjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: metas
+      cached-skin-uuid: 07e63514-5375-49f2-b90b-527223ab0bd0
+      player-skin-signature: p9iW+KMJiSXL+xPuhZl4nue1PIWuzkUGNlZ5NlycidN2XNVhFL3p88nhXnVMpLtTw43kyLJ+bBcv9rfqWpFcEk+l+xCNn7s6E/jhoLI/kSpqVCX7yjJzu5i9navsmSpr6rVS5Sey1CuZf8Mrx/aPgVuALO3L4vxIipeI2kTdKnB88E9rSaHQ7+EIBIlDsLu4XDO6aKSMrDTcvBuhTPoHbhCaJsxnPBB8OJqfkyCLjgM8JI5rr4yRLe9+BKLh9e8RbFpz2bjhz/iM5hltyADyEdQn+VAfqVlwul5zDbvIFUxbHLEnn9tV+S5c9LlHcI4bn3Uan7YqrV8k28HGOTq+lB9T/2O23dSsmrl6kbGj2/VBl0u2b3LxZCofCTi5FHExwTtYA4K1B9UUUHacyxb5PE04OgtEV2qvIfygo66Kw75U46GjLubRONft/l84DLOzXNfws/z0bsFzzNONSP2e3mxjZbSaCNeq+2R9M0jD7+ukpvNQuxXJA0Wscrt6pxxiUPwKUag0T4w/d5YEwcDIsZZDcO66yf5ZR32Iv3Q+wchQlptYev7dHqZUuGXSgoHbw9N3XR2L8FTTdG7BvCdrJCztGOMuqvjBLdcRWv5uU/ARCbMKgAEGVqCwiUsD3TAs3bTjsE3j0cTgPj/Mwolak3ckn8F9pzhwHnK42TMCQZE=
+    name: "\xa7aMetas"
+    uuid: 447a0d29-27fd-45e3-8999-e83d9f865858
+    traits:
+      location:
+        world: Spawn
+        x: '-4.366535070897838'
+        y: '79.0'
+        z: '18.33996534380084'
+        yaw: '238.3658905029297'
+        pitch: '-1.0501821041107178'
+      spawned: true
+      inventory: {}
+    traitnames: inventory,type,location,spawned
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

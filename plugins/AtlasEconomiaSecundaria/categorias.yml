@@ -1,0 +1,71 @@
+categoria1:
+  Nome: "Boosters"
+  TamanhoInventario: 27
+  FlechaVoltar: 18
+  Itens:
+    item1:
+      Slot: 12
+      Preco: 8000
+      Comando: true
+      DarItem: false
+      Comandos:
+        - "givecombustivel $player c1 1"
+      Material: COAL
+      Data: 0
+      Quantidade: 1
+      Name: "&aCombustível Tipo 1"
+      Lore:
+        - "&7Abasteça suas máquinas xD."
+      Enchants:
+        - "nulo"
+    item2:
+      Slot: 14
+      Preco: 2000
+      Comando: false
+      DarItem: true
+      Comandos:
+        - "nulo"
+      Material: DIAMOND_SWORD
+      Data: 0
+      Quantidade: 1
+      Name: "nulo"
+      Lore:
+        - "nulo"
+      Enchants:
+        - "DAMAGE_ALL:10"
+
+categoria2:
+  Nome: "Itens Aleatórios"
+  TamanhoInventario: 36
+  FlechaVoltar: 31
+  Itens:
+    item1:
+      Slot: 10
+      Preco: 5000
+      Comando: true
+      DarItem: false
+      Comandos:
+        - "givecombustivel $player c1 1"
+      Material: COAL
+      Data: 0
+      Quantidade: 1
+      Name: "&aCombustível Tipo 1"
+      Lore:
+        - "&7Abasteça suas máquinas xD."
+      Enchants:
+        - "nulo"
+    item2:
+      Slot: 11
+      Preco: 6000
+      Comando: false
+      DarItem: true
+      Comandos:
+        - "nulo"
+      Material: DIAMOND_SWORD
+      Data: 0
+      Quantidade: 1
+      Name: "nulo"
+      Lore:
+        - "nulo"
+      Enchants:
+        - "DAMAGE_ALL:10"

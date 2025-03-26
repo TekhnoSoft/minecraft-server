@@ -1,0 +1,117 @@
+MenuPrincipal:
+  Nome: "Loja de <economia>"
+  Tamanho: 54
+
+#Actions:
+#ABRIR_CATEGORIA:nome da categoria
+#TOP: numero // aparece o top número direto no menu
+#TOP_MENU:0 // abre o menu com os tops
+#NADA:0 // nada
+
+iteminfo:
+  Slot: 15
+  Action: NADA:0
+  Icon:
+    Material: "GOLD_INGOT"
+    Data: 0
+    Nome: "&eInformações"
+    Lore:
+      - "&7Olá &f<nick>&7! Tudo certo?"
+      - "&7Todos itens desta loja são"
+      - "&7adquiridos com &f<Economia>&7!"
+      - ""
+      - "&7Você pode receber &f<Economia>"
+      - "&7jogando ou em nosso"
+      - "&7site &floja.redeonix.com.br"
+      - ""
+      - "  &fSeu saldo em <Economia>: &6<simbolo><money>"
+      - ""
+      - " &aClique para acessar o site."
+
+
+item1:
+  Slot: 11
+  Action: ABRIR_CATEGORIA:categoria1
+  Icon:
+    Material: "POTION"
+    Data: 2
+    Nome: "&aBoosters"
+    Lore:
+      - "&7Aumente o quanto de dinheiro"
+      - "&7você ganha ao vender"
+      - "&7os seus drops."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+item2:
+  Slot: 12
+  Action: ABRIR_CATEGORIA:categoria2
+  Icon:
+    Material: "COMMAND"
+    Data: 0
+    Nome: "&aItens aleatórios"
+    Lore:
+      - "&7Compre itens diversos."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+itemhistorico:
+  Slot: 24
+  Action: HISTORICO:0
+
+
+itemtop1:
+  Slot: 38
+  Action: TOP:1
+
+itemtop2:
+  Slot: 39
+  Action: TOP:2
+
+itemtop3:
+  Slot: 40
+  Action: TOP:3
+
+itemtop4:
+  Slot: 41
+  Action: TOP:4
+
+itemtop5:
+  Slot: 42
+  Action: TOP:5
+
+item3:
+  Slot: 20
+  Action: ABRIR_CATEGORIA:categoria1
+  Icon:
+    Material: "DIAMOND_SWORD"
+    Data: 0
+    Nome: "&aEspadas"
+    Lore:
+      - "&7Categoria teste."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+item4:
+  Slot: 21
+  Action: ABRIR_CATEGORIA:categoria1
+  Icon:
+    Material: "TRIPWIRE_HOOK"
+    Data: 0
+    Nome: "&aChaves"
+    Lore:
+      - "&7Categoria teste."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+item5:
+  Slot: 13
+  Action: ABRIR_CATEGORIA:categoria1
+  Icon:
+    Material: "COAL_BLOCK"
+    Data: 0
+    Nome: "&aCombustíveis"
+    Lore:
+      - "&7Categoria teste."
+      - ""
+      - "&a Clique para acessar esta categoria."

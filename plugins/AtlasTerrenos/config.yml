@@ -1,0 +1,45 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+DesativarCustomizacao: false
+DesativarArmazem: false # caso queira desativar, coloque o comando, por exemplo /armazem
+Precos:
+  LimparPlot:
+    Money: 1000
+    Cash: 0
+  MudarChao:
+    Money: 0
+    Cash: 500
+  MudarParedes:
+    Money: 1000
+    Cash: 500
+
+CamadaY: 64
+NomeMoeda: "Cash"
+SobreescreverComandos:
+  - "/p"
+  - "/plot"
+
+Mensagens:
+  Vendido: "&aVocê vendeu &f<qntd> &ade &f<item> &apor um total de &2$&a<valor>"
+
+BlocosBloqueados:
+  - "137"
+  - "103"
+
+#Multiplicador para o armazém
+Multipliers: # permissão;multiplicador;nome do grupo
+  - "terrenos.multiplicador1;2;&6Vip 1"
+  - "terrenos.multiplicador2;3;&6Mvp 2"
+  - "terrenos.multiplicador3;3;&6Mvp+ 3"
+
+Armazem:
+  1:
+    Material: CACTUS
+    Preco: 1.5
+    Slot: 13

@@ -1,0 +1,89 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+Mensagens:
+  AtivarChave: "&aSucesso! Acesse /crates para abrir a chave."
+  AbrirChave: "&aVocê abriu <qntd> chave<s>. Recolha os itens em /chaves."
+
+DefaultLore:
+  - "&7"
+  - "&7Clique para adicionar esta"
+  - "&7chave ao menu de keys."
+  - "&7"
+  - "&fUse /crates para acessar o menu."
+
+Crates: # <s> = estrela
+  comum:
+    Nome: "&2Chave Comum"
+    Icone: TRIPWIRE_HOOK
+    Lore:
+      - "&7Raridade: &6<s>&7<s><s><s><s>"
+    Itens:
+      1:
+        Chance: 10
+        Comando: false
+        DarItem: true
+        Comandos:
+          - "nulo"
+        Material: DIRT
+        Data: 0
+        Quantidade: 1
+        Name: "&cNada :("
+        Lore:
+          - "nulo"
+        Enchants:
+          - "nulo"
+      2:
+        Chance: 5
+        Comando: true
+        DarItem: false
+        Comandos:
+          - "spawnershop $player limite 5"
+        Material: COAL
+        Data: 0
+        Quantidade: 1
+        Name: "&aLimite de Compra (x5)"
+        Lore:
+          - "&7Aumente a compra de spawners."
+        Enchants:
+          - "nulo"
+  rara:
+    Nome: "&2Chave Rara"
+    Icone: TRIPWIRE_HOOK
+    Lore:
+      - "&7Raridade: &6<s><s>&7<s><s><s>"
+    Itens:
+      1:
+        Chance: 5
+        Comando: false
+        DarItem: true
+        Comandos:
+          - "nulo"
+        Material: DIAMOND_SWORD
+        Data: 0
+        Quantidade: 1
+        Name: "nulo"
+        Lore:
+          - "nulo"
+        Enchants:
+          - "DAMAGE_ALL:10"
+      2:
+        Chance: 15
+        Comando: true
+        DarItem: false
+        Comandos:
+          - "spawnershop $player limite 15"
+        Material: COAL
+        Data: 0
+        Quantidade: 1
+        Name: "&aLimite de Compra (x15)"
+        Lore:
+          - "&7Aumente a compra de spawners."
+        Enchants:
+          - "nulo"
+

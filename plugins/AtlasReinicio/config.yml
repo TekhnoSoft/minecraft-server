@@ -1,0 +1,92 @@
+#Permissão: atlasplugins.reiniciar - Executar comandos do /reiniciar
+#Permissão: atlasplugins.reiniciar.bypass - Poder fazer todas as ações enquanto o servidor estiver reiniciando.
+#AjustarHorario: Devido a horários das máquinas de hospedagens serem diferentes dos horários do brasil e por mudanças
+#de horários de verão , criamos esta variável para ajustar o horário para +horas ou -horas
+Geral:
+ AjustarHorario: -1
+ EnableRestartScheduler: true
+ BungeeCord: false
+ BungeeCordDisconnectMessage:
+  - "&eO servidor em que você estava conectado entrou em modo de reinício, portanto você foi enviado para o lobby."
+ Lobbies:
+  - "lobby_1"
+  - "lobby_2"
+ KickMessage:
+  - "&c&LREDE ONIX"
+  - ""
+  - "&cReiniciando servidor..."
+
+Mensagens:
+ ReiniciandoCancel: '&cVocê não pode fazer isso enquanto o servidor estiver reiniciando.'
+ SemPerm: '&cVocê não tem permissão para executar este comando.'
+
+ReiniciosTypes:
+ REINICIO1:
+  ExecutarTodosComandos: true
+  AbrirBaus: false
+  AbrirBigornas: false
+  AbrirCraftingTables: false
+  AbrirEnderChests: false
+  AbrirMesaDeEncantamentos: false
+  AbrirFornalhas: true
+  AbrirDispensers: true
+  AbrirDroppers: true
+  AbrirBeacon: true
+  UtilizarRedstone: true
+  UtilizarEnderPearl: false
+  UtilizarChat: true
+  DropasItens: true
+  DesabilitarComandos:
+   - "/echest"
+   - "/bau"
+  ColocarBlocos: true
+  RetirarBlocos: true
+ REINICIO2:
+  ExecutarTodosComandos: false
+  AbrirBaus: false
+  AbrirBigornas: false
+  AbrirCraftingTables: false
+  AbrirEnderChests: false
+  AbrirMesaDeEncantamentos: false
+  AbrirFornalhas: false
+  AbrirDispensers: false
+  AbrirDroppers: false
+  AbrirBeacon: false
+  UtilizarRedstone: false
+  UtilizarEnderPearl: false
+  UtilizarChat: true
+  DropasItens: false
+  DesabilitarComandos:
+   - "/echest"
+   - "/bau"
+  ColocarBlocos: false
+  RetirarBlocos: false
+ 
+ReinicioMessage:
+ - ""
+ - "&e&l[REINÍCIO] &eO servidor irá reiniciar dentro de %minutes%"
+ - "&e&l[REINÍCIO] &eDurante este periodo algumas funções serão desabilitadas."
+ - ""
+ 
+ReiniciandoMessage:
+ - ""
+ - "&e&l[REINÍCIO] &eO servidor está sendo reiniciado..."
+ - ""
+ 
+ReinicioCancelado:
+ AtivarMensagem: true
+ Mensagem:
+  - ""
+  - "&c&l[REINÍCIO] O reinicio do servidor foi cancelado por %player%"
+  - ""
+ 
+Horarios:
+ Manha_1:
+  Horario: "08:00"
+  Type: REINICIO1
+ Manha_2:
+  Horario: "10:00"
+  Type: REINICIO1
+ MeioDia:
+  Horario: "19:45"
+  Type: REINICIO2

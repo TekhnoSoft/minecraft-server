@@ -1,0 +1,284 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Drops'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+pena:
+  LEFT-CLICK-COMMAND: 'give: 288, 16'
+  RIGHT-CLICK-COMMAND: 'give: 288, 16'
+  NAME: '&ePena'
+  ID: '288'
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+frango:
+  LEFT-CLICK-COMMAND: 'give: 365, 16'
+  RIGHT-CLICK-COMMAND: 'give: 365, 16'
+  NAME: '&eFrango'
+  ID: '365'
+  PRICE: 146
+  LORE:
+    - '&7'
+    - '&7Preco: &a146'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+couro:
+  LEFT-CLICK-COMMAND: 'give: 334, 16'
+  RIGHT-CLICK-COMMAND: 'give: 334, 16'
+  NAME: '&eCouro'
+  ID: '334' 
+  PRICE: 182
+  LORE:
+    - '&7'
+    - '&7Preco: &a182'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+file:
+  LEFT-CLICK-COMMAND: 'give: 364, 16'
+  RIGHT-CLICK-COMMAND: 'give: 364, 16'
+  NAME: '&eFile de Carne'
+  ID: '364'
+  PRICE: 282
+  LORE:
+    - '&7'
+    - '&7Preco: &a282'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+carnepodre:
+  LEFT-CLICK-COMMAND: 'give: 367, 16'
+  RIGHT-CLICK-COMMAND: 'give: 367, 16'
+  NAME: '&eCarna Podre'
+  ID: '367'
+  PRICE: 308
+  LORE:
+    - '&7'
+    - '&7Preco: &a308'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+linha:
+  LEFT-CLICK-COMMAND: 'give: 287, 16'
+  RIGHT-CLICK-COMMAND: 'give: 287, 16'
+  NAME: '&eLinha'
+  ID: '287'
+  PRICE: 370
+  LORE:
+    - '&7'
+    - '&7Preco: &a370'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 16
+  KEEP-OPEN: true
+olhoaranha:
+  LEFT-CLICK-COMMAND: 'give: 375, 16'
+  RIGHT-CLICK-COMMAND: 'give: 375, 16'
+  NAME: '&eOlho de Aranha'
+  ID: '375'
+  PRICE: 436
+  LORE:
+    - '&7'
+    - '&7Preco: &a436'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+osso:
+  LEFT-CLICK-COMMAND: 'give: 352, 16'
+  RIGHT-CLICK-COMMAND: 'give: 352, 16'
+  NAME: '&eOsso'
+  ID: '352'
+  PRICE: 496
+  LORE:
+    - '&7'
+    - '&7Preco: &a496'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+flecha:
+  LEFT-CLICK-COMMAND: 'give: 262, 16'
+  RIGHT-CLICK-COMMAND: 'give: 262, 16'
+  NAME: '&eFlecha'
+  ID: '262'
+  PRICE: 558
+  LORE:
+    - '&7'
+    - '&7Preco: &a558'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&7eClique para comprar este item!'
+  SLOT: 22
+  KEEP-OPEN: true
+enderpearl:
+  LEFT-CLICK-COMMAND: 'give: 368, 16'
+  RIGHT-CLICK-COMMAND: 'give: 368, 16'
+  NAME: '&eEnderpearl'
+  ID: '368'
+  PRICE: 620
+  LORE:
+    - '&7'
+    - '&7Preco: &a620'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 23
+  KEEP-OPEN: true
+pocreeper:
+  LEFT-CLICK-COMMAND: 'give: 289, 16'
+  RIGHT-CLICK-COMMAND: 'give: 289, 16'
+  NAME: '&ePolvora'
+  ID: '289'
+  PRICE: 746
+  LORE:
+    - '&7'
+    - '&7Preco: &a746'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 24
+  KEEP-OPEN: true
+paublaze:
+  LEFT-CLICK-COMMAND: 'give: 369, 16'
+  RIGHT-CLICK-COMMAND: 'give: 369, 16'
+  NAME: '&ePau de Blaze'
+  ID: '369'
+  PRICE: 808
+  LORE:
+    - '&7'
+    - '&7Preco: &a808'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 25
+  KEEP-OPEN: true
+ferro:
+  LEFT-CLICK-COMMAND: 'give: 265, 16'
+  RIGHT-CLICK-COMMAND: 'give: 265, 16'
+  NAME: '&eFerro'
+  ID: '265'
+  PRICE: 500
+  LORE:
+    - '&7'
+    - '&7Preco: &a500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 29
+  KEEP-OPEN: true
+pepita:
+  LEFT-CLICK-COMMAND: 'give: 371, 16'
+  RIGHT-CLICK-COMMAND: 'give: 371, 16'
+  NAME: '&ePepita de Ouro'
+  ID: '371'
+  PRICE: 872
+  LORE:
+    - '&7'
+    - '&7Preco: &a872'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 30
+  KEEP-OPEN: true
+prismarinoshard:
+  LEFT-CLICK-COMMAND: 'give: 409, 16'
+  RIGHT-CLICK-COMMAND: 'give: 409, 16'
+  NAME: '&eEstilhaco de Prismarino'
+  ID: '409'
+  PRICE: 935
+  LORE:
+    - '&7'
+    - '&7Preco: &a620'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 31
+  KEEP-OPEN: true
+prismarinocristal:
+  LEFT-CLICK-COMMAND: 'give: 410, 16'
+  RIGHT-CLICK-COMMAND: 'give: 410, 16'
+  NAME: '&eCristal de Prismarino'
+  ID: '410'
+  PRICE: 935
+  LORE:
+    - '&7'
+    - '&7Preco: &a935'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 32
+  KEEP-OPEN: true
+magmacreme:
+  LEFT-CLICK-COMMAND: 'give: 378, 16'
+  RIGHT-CLICK-COMMAND: 'give: 378, 16'
+  NAME: '&eCreme de Magma'
+  ID: '378'
+  PRICE: 1130
+  LORE:
+    - '&7'
+    - '&7Preco: &a1130'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 33
+  KEEP-OPEN: true
+breve:
+  LEFT-CLICK-COMMAND: ''
+  RIGHT-CLICK-COMMAND: ''
+  NAME: '&cEm Breve...'
+  ID: '160'
+  DATA-VALUE: 14
+  SLOT: 34
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

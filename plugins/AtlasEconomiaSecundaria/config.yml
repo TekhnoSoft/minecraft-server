@@ -1,0 +1,44 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+FormatarComLetras: true # 50K, caso false será 50.000
+Bungeecord: false # caso ligar esse modo, todos plugins precisam estar conectados no mesmo banco de dados
+
+Economia:
+  Nome: "Cash"
+  Simbolo: "\u272A" # ✪
+  Comando: "/cash"
+
+Vale:
+  Material: QUARTZ
+  Nome: "&6Vale <Economia>"
+  Lore:
+    - "&f Quantia: &6<simbolo><qntd>"
+    - ""
+    - "&aClique para ativar."
+
+Mensagens:
+  ComandoVer: "&a<Economia> de <player>: &f<simbolo><money>"
+  CompactarVales:
+    - ""
+    - "&e Transformados <qntd> vales de <economia> em 1 vale com o total de"
+    - "&e <total> de <Economia>."
+    - ""
+  ComandosDisponiveis:
+    - "&b&lOnix <Economia>"
+    - "&b<comando> - abra o menu principal"
+    - "&b<comando> ver <jogador>"
+    - "&b<comando> vale <quantidade> - crie um vale <economia>"
+    - "&b<comando> enviar <jogador> <quantidade>"
+    - "<adm>&6<comando> set <jogador> <quantidade>"
+    - "<adm>&6<comando> add <jogador> <quantidade>"
+    - "<adm>&6<comando> remove <jogador> <quantidade>"
+    - "<adm>&6<comando> givevale <jogador> <quantidade>"
+
+#Placeholder: %atlaseconomiasecundaria_money%
+#Permissoes: atlaseconomiasecundaria.admin

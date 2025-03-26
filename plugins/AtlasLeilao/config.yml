@@ -1,0 +1,27 @@
+#Atenção: Não é necessário colocar a porta 3306 no Host do MySQL.
+Mysql:
+ Host: 'localhost'
+ Usuario: 'root'
+ Senha: '' 
+ Database: 'test'
+ 
+Mensagens:
+ SemPermissao: '&cVocê não tem permissão para executar este comando.'
+ LeilaoExpirou: '&cEste leilão foi removido ou expirou.'
+ LanceAdicionado: '&aVocê fez um lance de @price.'
+ ItemPublicado: '&a&lPronto!&a, seu item agora está no leilão.'
+ Vendido: '&aVocê recebeu &f@price &ado leilão e &f@comprador &arecebeu seu item.'
+ 
+ 
+ 
+LeilaoNPC:
+ NPCName: "§6Leiloador"
+ DisableName: true
+ Skin: 'santa'
+ HologramDistance: 3.5
+ Holograma:
+  - "&6&lLeiloes"
+  - "&fLeiloe seus itens, dê lances"
+  - "&fe veja todos os itens que estão"
+  - "&fpara serem leiloados!"
+  - "§7(/leilao)"

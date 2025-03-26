@@ -1,0 +1,224 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Farm'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+semente:
+  LEFT-CLICK-COMMAND: 'give: 295, 16'
+  RIGHT-CLICK-COMMAND: 'give: 295, 16'
+  NAME: '&eSemente'
+  ID: '295'
+  PRICE: 40
+  LORE:
+    - '&7'
+    - '&7Preco: &a40'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+cenoura:
+  LEFT-CLICK-COMMAND: 'give: 391, 16'
+  RIGHT-CLICK-COMMAND: 'give: 391, 16'
+  NAME: '&eCenoura'
+  ID: '391'
+  PRICE: 42
+  LORE:
+    - '&7'
+    - '&7Preco: &a42'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+batata:
+  LEFT-CLICK-COMMAND: 'give: 392, 16'
+  RIGHT-CLICK-COMMAND: 'give: 392, 16'
+  NAME: '&eBatata'
+  ID: '392' 
+  PRICE: 42
+  LORE:
+    - '&7'
+    - '&7Preco: &a42'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+cacau:
+  LEFT-CLICK-COMMAND: 'give: 351:3, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:3, 16'
+  NAME: '&eCacau'
+  ID: '351'
+  DATA-VALUE: 3
+  PRICE: 336
+  LORE:
+    - '&7'
+    - '&7Preco: &a336'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+cana:
+  LEFT-CLICK-COMMAND: 'give: 338, 16'
+  RIGHT-CLICK-COMMAND: 'give: 338, 16'
+  NAME: '&eCana de Acucar'
+  ID: '338'
+  PRICE: 250
+  LORE:
+    - '&7'
+    - '&7Preco: &a250'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+melancia:
+  LEFT-CLICK-COMMAND: 'give: 360, 16'
+  RIGHT-CLICK-COMMAND: 'give: 360, 16'
+  NAME: '&eMelancia'
+  ID: '360'
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+cacto:
+  LEFT-CLICK-COMMAND: 'give: 81, 16'
+  RIGHT-CLICK-COMMAND: 'give: 81, 16'
+  NAME: '&eCacto'
+  ID: '81'
+  PRICE: 166
+  LORE:
+    - '&7'
+    - '&7Preco: &a166'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+peixecru:
+  LEFT-CLICK-COMMAND: 'give: 349, 16'
+  RIGHT-CLICK-COMMAND: 'give: 349, 16'
+  NAME: '&ePeixe Cru'
+  ID: '349'
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 22
+  KEEP-OPEN: true
+peixecru1:
+  LEFT-CLICK-COMMAND: 'give: 349:1, 16'
+  RIGHT-CLICK-COMMAND: 'give: 349:1, 16'
+  NAME: '&ePeixe Cru'
+  ID: '349'
+  DATA-VALUE: 1
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 23
+  KEEP-OPEN: true
+peixecozido:
+  LEFT-CLICK-COMMAND: 'give: 350, 16'
+  RIGHT-CLICK-COMMAND: 'give: 350, 16'
+  NAME: '&ePeixe Cozido'
+  ID: '350'
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 24
+  KEEP-OPEN: true
+peixepalhaco:
+  LEFT-CLICK-COMMAND: 'give: 349:2, 16'
+  RIGHT-CLICK-COMMAND: 'give: 349:2, 16'
+  NAME: '&ePeixe Palhaco'
+  ID: '349'
+  DATA-VALUE: 2
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 29
+  KEEP-OPEN: true
+baiacu:
+  LEFT-CLICK-COMMAND: 'give: 349:3, 16'
+  RIGHT-CLICK-COMMAND: 'give: 349:3, 16'
+  NAME: '&eBaiacu'
+  ID: '349'
+  DATA-VALUE: 3
+  PRICE: 84
+  LORE:
+    - '&7'
+    - '&7Preco: &a84'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 30
+  KEEP-OPEN: true
+maca:
+  LEFT-CLICK-COMMAND: 'give: 260, 16'
+  RIGHT-CLICK-COMMAND: 'give: 260, 16'
+  NAME: '&eMaca'
+  ID: '260'
+  PRICE: 300
+  LORE:
+    - '&7'
+    - '&7Preco: &a300'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 31
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

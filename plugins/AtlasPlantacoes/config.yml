@@ -1,0 +1,31 @@
+Settings:
+  ActionBar: "&fVocê recebeu &a$quantidade &f$item"
+
+Plantacoes:
+  p1:
+    Nome: "Fungo"
+    Replantar: true
+    Plantacao: NETHER_WARTS
+    QuebrarSomenteLevelMaximo: true
+    Drop:
+      Material: NETHER_STALK
+      Quantidade:
+        q1:
+          Permissao: "drop.de.fungo.default"
+          Minimo: 10
+          Maximo: 15
+        q2:
+          Permissao: "drop.de.fungo.vip"
+          Minimo: 20
+          Maximo: 25
+    Recompensas:
+      r1:
+        Chance: 2
+        Title: "&b&lFARMS<nl>&7Você ganhou 5.000 cash"
+        Comandos:
+          - "cash give $player 5000"
+      r2:
+        Chance: 2
+        Title: "&b&lFARMS<nl>&7Você ganhou 5.000 money"
+        Comandos:
+          - "money give $player 5000"

@@ -1,0 +1,162 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Pocoes'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+capiroto:
+  LEFT-CLICK-COMMAND: 'give: 322:1, 8'
+  RIGHT-CLICK-COMMAND: 'give: 322:1, 8'
+  NAME: '&eMaca Dourada'
+  ID: '322'
+  DATA-VALUE: 1
+  PRICE: 2040
+  LORE:
+    - '&7'
+    - '&7Preco: &a2040'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+forcaII:
+  LEFT-CLICK-COMMAND: 'give: 373:8233, 1'
+  RIGHT-CLICK-COMMAND: 'give: 311, 1'
+  NAME: '&eForca II'
+  ID: '373'
+  DATA-VALUE: 8233
+  PRICE: 510
+  LORE:
+    - '&7'
+    - '&7Preco: &a510'
+    - '&7Quantidade: &fx1'
+    - '&7Tempo: &a1:30'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+  HIDE-ATTRIBUTES: true
+velocidadeII:
+  LEFT-CLICK-COMMAND: 'give: 373:8226, 1'
+  RIGHT-CLICK-COMMAND: 'give: 373:8226, 1'
+  NAME: '&eVelocidade II'
+  ID: '373'
+  DATA-VALUE: 8226
+  PRICE: 215
+  LORE:
+    - '&7'
+    - '&7Preco: &a215'
+    - '&7Quantidade: &fx1'
+    - '&7Tempo: &a1:30'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+  HIDE-ATTRIBUTES: true
+regeneracao:
+  LEFT-CLICK-COMMAND: 'give: 373, 1'
+  RIGHT-CLICK-COMMAND: 'give: 373, 1'
+  NAME: '&eRegeneracao I'
+  ID: '373'
+  DATA-VALUE: 8257
+  PRICE: 255
+  LORE:
+    - '&7'
+    - '&7Preco: &a255'
+    - '&7Quantidade: &fx1'
+    - '&7Tempo: &a2:00'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+  HIDE-ATTRIBUTES: true
+fogo:
+  LEFT-CLICK-COMMAND: 'give: 373:8227, 1'
+  RIGHT-CLICK-COMMAND: 'give: 373:8227, 1'
+  NAME: '&eResistencia ao Fogo'
+  ID: '373'
+  DATA-VALUE: 8227
+  PRICE: 215
+  LORE:
+    - '&7'
+    - '&7Preco: &a215'
+    - '&7Quantidade: &fx1'
+    - '&7Tempo: &a3:00'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+  HIDE-ATTRIBUTES: true
+venenoII:
+  LEFT-CLICK-COMMAND: 'give: 373, 1'
+  RIGHT-CLICK-COMMAND: 'give: 373, 1'
+  NAME: '&eVeneno II'
+  ID: '373'
+  DATA-VALUE: 16420
+  PRICE: 425
+  LORE:
+    - '&7'
+    - '&7Preco: &a425'
+    - '&7Quantidade: &fx1'
+    - '&7Tempo: &a0:16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+  HIDE-ATTRIBUTES: true
+danoinstantaneoII:
+  LEFT-CLICK-COMMAND: 'give: 373, 1'
+  RIGHT-CLICK-COMMAND: 'give: 373, 1'
+  NAME: '&eDano Instantaneo II'
+  ID: '373'
+  DATA-VALUE: 16428
+  PRICE: 425
+  LORE:
+    - '&7'
+    - '&7Preco: &a425'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+  HIDE-ATTRIBUTES: true
+block:
+  LEFT-CLICK-COMMAND: ''
+  RIGHT-CLICK-COMMAND: ''
+  NAME: '&cEm Breve...'
+  ID: '160'
+  DATA-VALUE: 14
+  SLOT: 22
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

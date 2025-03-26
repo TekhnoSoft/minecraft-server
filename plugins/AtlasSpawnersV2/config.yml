@@ -1,0 +1,112 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+Spawner:
+  TempoSpawn: 5000
+  Item:
+    Nome: "&aGerador de <mob>"
+    Lore:
+      - "&7Este gerador possui"
+      - "&7um incrivel poder de"
+      - "&7gerar <plural> sempre!"
+      - ""
+      - " &fQuantidade: &b<quantidade_formatada>" # opções: <quantidade_formatada> ex: 10K, <quantidade> ex: 10,000
+      - ""
+      - " &7Ao matar mobs deste gerador"
+      - " &7tem chance de receber diversas"
+      - " &7recompensas!"
+
+Mobstacking:
+  NomeMob: "&e<mob> - &l<quantidade_formatada>" # opções: <quantidade_formatada> ex: 10K, <quantidade> ex: 10,000
+  Limite: 1000
+
+Holograma:
+  Ativar: true
+  Texto:
+    - "&aGerador de &f<mob>"
+    - "&aDono: &f<dono>"
+    - "&a<quantidade_formatada>x" # opções: <quantidade_formatada> ex: 10K, <quantidade> ex: 10,000
+    - "<cabeca>"
+
+
+Missoes:
+  CHICKEN:
+    2: #ira sobrepor a missao 2 do geral
+      Tipo: MATAR_MOBS # por enquanto só este tipo está disponível
+      Quantidade: 1750.0
+      Recompensas:
+        1:
+          Nome: "100k coins"
+          Comando: "money give <player> 100000"
+        2:
+          Nome: "100x de Spider"
+          Comando: "spawneradmin givespawner <player> spider 100 1"
+  Geral:
+   1:
+     Tipo: MATAR_MOBS
+     Quantidade: 1
+     Recompensas:
+       1:
+         Nome: "50k de coins"
+         Comando: "money give <player> 50000"
+
+Precos: # necessário para o money top
+  CHICKEN: 1000000
+  COW: 1000000
+  SPIDER: 2500000
+  ZOMBIE: 3700000
+  SKELETON: 4800000
+  ENDERMAN: 6000000
+  blaze: 10000000
+  CREEPER: 15000000
+Drops:
+  CHICKEN:
+    Drop: FEATHER
+    Preco: 1
+  COW:
+    Drop: LEATHER
+    Preco: 2
+  ZOMBIE:
+    Drop: ROTTEN_FLESH
+    Preco: 4
+  SPIDER:
+    Drop: STRING
+    Preco: 6
+  SKELETON:
+    Drop: BONE
+    Preco: 5
+  ENDERMAN:
+    Drop: ENDER_PEARL
+    Preco: 11
+  BLAZE:
+    Drop: BLAZE_ROD
+    Preco: 14
+  CREEPER:
+    Drop: SULPHUR
+    Preco: 13
+  IRON_GOLEM:
+    Drop: Iron_Ingot
+    Preco: 20
+
+DropEspecialTitle: "&6&lGERADORES!<nl>&fVocê ganhou <nome> matando este monstro."
+DropsEspeciais:
+  1:
+    Chance: 10
+    Nome: "Limite 10x"
+    Comando: "spawnershop <player> limite 10"
+  2:
+    Chance: 1.5
+    Nome: "Booster"
+    Comando: "spawnershop <player> booster 5 1"
+
+Raios:
+  StackSpawner: 5
+  StackMobs: 5
+  StackItems: 5
+
+#Permissoes: spawner.give

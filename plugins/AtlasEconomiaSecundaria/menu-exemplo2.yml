@@ -1,0 +1,78 @@
+MenuPrincipal:
+  Nome: "Loja de <economia>"
+  Tamanho: 27
+
+#Actions:
+#ABRIR_CATEGORIA:nome da categoria
+#TOP: numero // aparece o top número direto no menu
+#TOP_MENU:0 // abre o menu com os tops
+#NADA:0 // nada
+
+iteminfo:
+  Slot: 15
+  Action: NADA:0
+  Icon:
+    Material: "GOLD_INGOT"
+    Data: 0
+    Nome: "&eInformações"
+    Lore:
+      - "&7Olá &f<nick>&7! Tudo certo?"
+      - "&7Todos itens desta loja são"
+      - "&7adquiridos com &f<Economia>&7!"
+      - ""
+      - "&7Você pode receber &f<Economia>"
+      - "&7jogando ou em nosso"
+      - "&7site &fwww.atlasplugins.com"
+      - ""
+      - "  &fSeu saldo em <Economia>: &6<simbolo><money>"
+      - ""
+      - " &aClique para acessar o site."
+
+
+item1:
+  Slot: 10
+  Action: ABRIR_CATEGORIA:categoria1
+  Icon:
+    Material: "POTION"
+    Data: 2
+    Nome: "&aBoosters"
+    Lore:
+      - "&7Aumente o quanto de dinheiro"
+      - "&7você ganha ao vender"
+      - "&7os seus drops."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+item2:
+  Slot: 11
+  Action: ABRIR_CATEGORIA:categoria2
+  Icon:
+    Material: "COMMAND"
+    Data: 0
+    Nome: "&aItens aleatórios"
+    Lore:
+      - "&7Compre itens diversos."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+item3:
+  Slot: 12
+  Action: ABRIR_CATEGORIA:categoria2
+  Icon:
+    Material: "DIAMOND_SWORD"
+    Data: 0
+    Nome: "&aEspadas"
+    Lore:
+      - "&7Compre espadas aqui."
+      - ""
+      - "&a Clique para acessar esta categoria."
+
+itemhistorico:
+  Slot: 16
+  Action: TOP_MENU:0
+  Icon:
+    Material: "BOOK"
+    Data: 0
+    Nome: "&aTop jogadores"
+    Lore:
+      - "&7Veja aqui os jogadores que mais possuem <economia>."

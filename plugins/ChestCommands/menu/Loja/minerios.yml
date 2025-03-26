@@ -1,0 +1,235 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja [VIP] - Minerios'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+lapis:
+  LEFT-CLICK-COMMAND: 'give: 351:4, 8'
+  RIGHT-CLICK-COMMAND: 'give: 351:4, 8'
+  NAME: '&eLapis Lazuli'
+  ID: '351'
+  DATA-VALUE: 4
+  PRICE: 112
+  LORE:
+    - '&7'
+    - '&7Preco: &a112'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 10
+  KEEP-OPEN: true
+carvao:
+  LEFT-CLICK-COMMAND: 'give: 263, 8'
+  RIGHT-CLICK-COMMAND: 'give: 263, 8'
+  NAME: '&eCarvao'
+  ID: '263'
+  PRICE: 154
+  LORE:
+    - '&7'
+    - '&7Preco: &a154'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+  KEEP-OPEN: true
+quartzo:
+  LEFT-CLICK-COMMAND: 'give: 406, 8'
+  RIGHT-CLICK-COMMAND: 'give: 406, 8'
+  NAME: '&eQuartzo'
+  ID: '406'
+  PRICE: 166
+  LORE:
+    - '&7'
+    - '&7Preco: &a166'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+  KEEP-OPEN: true
+redstone:
+  LEFT-CLICK-COMMAND: 'give: 331, 8'
+  RIGHT-CLICK-COMMAND: 'give: 331, 8'
+  NAME: '&eRedstone'
+  ID: '331'
+  PRICE: 278
+  LORE:
+    - '&7'
+    - '&7Preco: &a278'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+  KEEP-OPEN: true
+ouro:
+  LEFT-CLICK-COMMAND: 'give: 266, 8'
+  RIGHT-CLICK-COMMAND: 'give: 266, 8'
+  NAME: '&eBarra de Ouro'
+  ID: '266'
+  PRICE: 695
+  LORE:
+    - '&7'
+    - '&7Preco: &a695'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+  KEEP-OPEN: true
+diamante:
+  LEFT-CLICK-COMMAND: 'give: 264, 8'
+  RIGHT-CLICK-COMMAND: 'give: 264, 8'
+  NAME: '&eDiamond'
+  ID: '264'
+  PRICE: 3320
+  LORE:
+    - '&7'
+    - '&7Preco: &a3320'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+  KEEP-OPEN: true
+esmeralda:
+  LEFT-CLICK-COMMAND: 'give: 388, 8'
+  RIGHT-CLICK-COMMAND: 'give: 388, 8'
+  NAME: '&eEsmeralda'
+  ID: '388'
+  PRICE: 4452
+  LORE:
+    - '&7'
+    - '&7Preco: &a4452'
+    - '&7Quantidade: &fx8'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 16
+  KEEP-OPEN: true
+lapisbloco:
+  LEFT-CLICK-COMMAND: 'give: 22, 1'
+  RIGHT-CLICK-COMMAND: 'give: 22, 1'
+  NAME: '&eBloco de Lapis Lazuli'
+  ID: '22'
+  PRICE: 125
+  LORE:
+    - '&7'
+    - '&7Preco: &a125'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 19
+  KEEP-OPEN: true
+carvaobloco:
+  LEFT-CLICK-COMMAND: 'give: 173, 1'
+  RIGHT-CLICK-COMMAND: 'give: 173, 1'
+  NAME: '&eBloco de Carvao'
+  ID: '173'
+  PRICE: 172
+  LORE:
+    - '&7'
+    - '&7Preco: &a172'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 20
+  KEEP-OPEN: true
+quartzobloco:
+  LEFT-CLICK-COMMAND: 'give: 155, 16'
+  RIGHT-CLICK-COMMAND: 'give: 155, 16'
+  NAME: '&eBloco de Quartzo'
+  ID: '155'
+  PRICE: 180
+  LORE:
+    - '&7'
+    - '&7Preco: &a180'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 21
+  KEEP-OPEN: true
+redstonebloco:
+  LEFT-CLICK-COMMAND: 'give: 152, 1'
+  RIGHT-CLICK-COMMAND: 'give: 152, 1'
+  NAME: '&eBloco de Lapis Lazuli'
+  ID: '152'
+  PRICE: 313
+  LORE:
+    - '&7'
+    - '&7Preco: &a313'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 22
+  KEEP-OPEN: true
+ourobloco:
+  LEFT-CLICK-COMMAND: 'give: 41, 1'
+  RIGHT-CLICK-COMMAND: 'give: 41, 1'
+  NAME: '&eBloco de Ouro'
+  ID: '41'
+  PRICE: 782
+  LORE:
+    - '&7'
+    - '&7Preco: &a782'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 23
+  KEEP-OPEN: true
+diamantebloco:
+  LEFT-CLICK-COMMAND: 'give: 57, 1'
+  RIGHT-CLICK-COMMAND: 'give: 57, 1'
+  NAME: '&eBloco de Diamante'
+  ID: '57'
+  PRICE: 5008
+  LORE:
+    - '&7'
+    - '&7Preco: &a5008'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 24
+  KEEP-OPEN: true
+esmeraldabloco:
+  LEFT-CLICK-COMMAND: 'give: 133, 1'
+  RIGHT-CLICK-COMMAND: 'give: 133, 1'
+  NAME: '&eBloco de Esmeralda'
+  ID: '133'
+  PRICE: 5634
+  LORE:
+    - '&7'
+    - '&7Preco: &a5634'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 25
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 40

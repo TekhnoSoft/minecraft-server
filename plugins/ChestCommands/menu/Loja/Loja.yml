@@ -1,0 +1,106 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja Virtual'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+ferramentas:
+  LEFT-CLICK-COMMAND: 'open: ferramentas.yml'
+  RIGHT-CLICK-COMMAND: 'open: ferramentas.yml'
+  NAME: ' &a&lFERRAMENTAS '
+  ID: '276'
+  SLOT: 11
+pocoes:
+  LEFT-CLICK-COMMAND: 'open: pocoes.yml'
+  RIGHT-CLICK-COMMAND: 'open: pocoes.yml'
+  NAME: ' &c&lPOCOES '
+  ID: '373'
+  DATA-VALUE: 8201
+  SLOT: 12
+  HIDE-ATTRIBUTES: true
+drops:
+  LEFT-CLICK-COMMAND: 'open: drops.yml'
+  RIGHT-CLICK-COMMAND: 'open: drops.yml'
+  NAME: ' &b&lDROPS '
+  ID: '334'
+  SLOT: 13
+farm:
+  LEFT-CLICK-COMMAND: 'open: farm.yml'
+  RIGHT-CLICK-COMMAND: 'open: farm.yml'
+  NAME: ' &a&lFARM '
+  ID: 'CACTUS'
+  SLOT: 14
+minerios:
+  LEFT-CLICK-COMMAND: 'open: minerios.yml'
+  RIGHT-CLICK-COMMAND: 'open: minerios.yml'
+  NAME: ' &9&lMINERIOS '
+  ID: '388'
+  SLOT: 15
+alquimia:
+  LEFT-CLICK-COMMAND: 'open: alquimia.yml'
+  RIGHT-CLICK-COMMAND: 'open: alquimia.yml'
+  NAME: ' &6&lALQUIMIA '
+  ID: 379
+  SLOT: 20
+utilitarios:
+  LEFT-CLICK-COMMAND: 'open: utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'open: utilitarios.yml'
+  NAME: ' &d&lUTILITARIOS '
+  ID: 'CHEST'
+  SLOT: 21
+corantes:
+  LEFT-CLICK-COMMAND: 'open: corantes.yml'
+  RIGHT-CLICK-COMMAND: 'open: corantes.yml'
+  NAME: ' &c&lCORANTES '
+  ID: 351
+  DATA-VALUE: 1
+  SLOT: 22
+blocos:
+  LEFT-CLICK-COMMAND: 'open: Blocos1.yml'
+  RIGHT-CLICK-COMMAND: 'open: Blocos1.yml'
+  NAME: ' &b&lBLOCOS '
+  ID: 'grass'
+  SLOT: 23
+blocoscoloridos:
+  LEFT-CLICK-COMMAND: 'open: blocoscoloridos.yml'
+  RIGHT-CLICK-COMMAND: 'open: blocoscoloridos.yml'
+  NAME: ' &9&lBLOCOS COLORIDOS '
+  ID: 159
+  DATA-VALUE: 14
+  SLOT: 24
+voltar:
+  LEFT-CLICK-COMMAND: 'open: Lojas.yml'
+  RIGHT-CLICK-COMMAND: '&cEm breve'
+  NAME: '&eVoltar ao Menu inicial.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  SLOT: 40
+  KEEP-OPEN: true

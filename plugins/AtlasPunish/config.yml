@@ -1,0 +1,98 @@
+#Atenção: Se estiver utilizando o 'UseBungeeCord' como true, conecte o MySQL do plugin abaixo com o mesmo MySQL configurado no BungeeCord.
+MySQL:
+ Host: 'localhost'
+ Usuario: 'root'
+ Senha: '' 
+ Database: 'servidor1'
+ 
+UseBungeeCord: true
+ 
+#Lista de Permissões: https://pastebin.com/DbhQAg78
+ 
+#Atenção: RestringirServidores apenas funcionará se o plugin estiver linkado em banda(ou seja linkado com o BungeeCord)
+#RestringirServidores: true -> Apenas os servidores listados na aba "listar" serão aplicados a punição
+#RestringirServidores: false -> Todos os servidores conectados ao BungeeCord que estiverem rodando o AtlasPunish serão aplicados a punição
+#ProvaObrigatoria: false -> Não necessita de prova para punir
+#ProvaObrigatoria: true -> Necessita de prova para ser aplicada a punição
+ 
+#Tipos de Punicao: BAN,BAN_IP,MUTE
+#Utilize o "_" para separar o nome da punição quando for criar uma nova punição.
+
+Formato: ' &e● &f@punicao'
+
+PunirMotivos:
+ Abuso_De_Bugs:
+  Nome: 'Abuso de Bugs'
+  TipoPunicao: BAN
+  Permissao: redeonix.banir.abusodebugs
+  JSON:
+   - "&7Tipo de Banimento: &fBAN"
+   - "&7Tempo de Banimento: &f7 dias"
+   - "&7Servidores: &fTodos"
+   - "&7Cargo Mínimo: &2Moderadores"
+  ProvaObrigatoria: false
+  Tempo:
+   ParaSempre: false
+   Dias: 7
+   Horas: 0
+   Minutos: 0
+ Hack:
+  Nome: 'Uso de Hack'
+  TipoPunicao: BAN
+  Permissao: redeonix.banir.usodehack
+  JSON:
+   - "&7Tipo de Banimento: &fBAN"
+   - "&7Tempo de Banimento: &fPermanente"
+   - "&7Servidores: &fTodos"
+   - "&7Cargo Mínimo: &2Moderadores"
+  ProvaObrigatoria: true
+  Tempo:
+   ParaSempre: true
+   Dias: 999
+   Horas: 0
+   Minutos: 0
+ Anti_Jogo:
+  Nome: 'Anti-Jogo(Chat)'
+  TipoPunicao: MUTE
+  Permissao: redeonix.banir.antijogo
+  JSON:
+   - "&7Tipo de Banimento: &fMUTE"
+   - "&7Tempo de Banimento: &f2 horas"
+   - "&7Servidores: &fTodos"
+   - "&7Cargo Mínimo: &2Moderadores"
+  ProvaObrigatoria: true
+  Tempo:
+   ParaSempre: false
+   Dias: 0
+   Horas: 2
+   Minutos: 0
+ Divulgação_Simples:
+  Nome: 'Divulgação Simples'
+  TipoPunicao: MUTE
+  Permissao: redeonix.banir.divulgacaosimples
+  JSON:
+   - "&7Tipo de Banimento: &fMUTE"
+   - "&7Tempo de Banimento: &f2 horas"
+   - "&7Servidores: &fTodos"
+   - "&7Cargo Mínimo: &2Moderadores"
+  ProvaObrigatoria: true
+  Tempo:
+   ParaSempre: false
+   Dias: 0
+   Horas: 2
+   Minutos: 0
+ Divulgação_Grave:
+  Nome: 'Divulgação Grave'
+  TipoPunicao: MUTE
+  Permissao: redeonix.banir.divulgacaograve
+  JSON:
+   - "&7Tipo de Banimento: &fMUTE"
+   - "&7Tempo de Banimento: &f7 horas"
+   - "&7Servidores: &fTodos"
+   - "&7Cargo Mínimo: &cAdmin"
+  ProvaObrigatoria: true
+  Tempo:
+   ParaSempre: false
+   Dias: 0
+   Horas: 7
+   Minutos: 0

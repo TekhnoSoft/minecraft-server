@@ -1,0 +1,194 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&7Kit dos vips'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+  type: CHEST
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+VipDiario:
+  LEFT-CLICK-COMMAND: 'kit vipdiario'
+  RIGHT-CLICK-COMMAND: 'verkit VipDiario'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &b[VIP] Diario '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/4825664f5da1b435179dbed7db92affaf0433e790b7e9e9d1a90dbe97c8f0dd1'
+  SLOT: 11
+VipSemanal:
+  LEFT-CLICK-COMMAND: 'kit vipsemanal'
+  RIGHT-CLICK-COMMAND: 'verkit VipSemanal'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &b[VIP] Semanal '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 semana.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/6b35acd6ea37af8bfa23c213606c28272e19e2e432d31be89af641ae1a705405'
+  SLOT: 20
+VipMensal:
+  LEFT-CLICK-COMMAND: 'kit vipmensal'
+  RIGHT-CLICK-COMMAND: 'verkit VipMensal'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &b[VIP] Mensal '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 mes.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/151599f66e83da555cf9b8b7e5a379d0deab21c2eee909d1837323db0893bf38'
+  SLOT: 29
+MvpDiario:
+  LEFT-CLICK-COMMAND: 'kit mvpdiario'
+  RIGHT-CLICK-COMMAND: 'verkit MvpDiario'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &6[MVP] Diario '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/f4d04c7a3c208c9a44adf7a0f079ae7e7b53d5009ceb7d3ea72380a28114135a'
+  SLOT: 13
+MvpSemanal:
+  LEFT-CLICK-COMMAND: 'kit MvpSemanal'
+  RIGHT-CLICK-COMMAND: 'verkit MvpSemanal'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &6[MVP] Semanal '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/8df218525c19a922df2d0001778a1d945c75d2a924c0eaa20e4b2719f848542e'
+  SLOT: 22
+MvpMensal:
+  LEFT-CLICK-COMMAND: 'kit mvpmensal'
+  RIGHT-CLICK-COMMAND: 'verkit MvpMensal'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &6[MVP] Mensal '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/761055d72e0aa8a162b40473e30748f733116700b04be6ac9a1e8161ca77af0c'
+  SLOT: 31
+Mvp+Diario:
+  LEFT-CLICK-COMMAND: 'kit mvp2diario'
+  RIGHT-CLICK-COMMAND: 'verkit Mvp2Diario'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &3[MVP+] Diario '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/cb7a16f765223041ae53ff94d26f7fb2c14708d1bdab9df61d281bc902e53615'
+  SLOT: 15
+Mvp+Semanal:
+  LEFT-CLICK-COMMAND: 'kit mvp2Sema'
+  RIGHT-CLICK-COMMAND: 'verkit mvp2Semanal'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &3[MVP+] Semanal '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 semana.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/8da2246fc17659d90e2e82910fcf570f27cc452b6cf19c9ceab6bde183413f8c'
+  SLOT: 24
+Mvp+Mensal:
+  LEFT-CLICK-COMMAND: 'kit Mvp2mensal'
+  RIGHT-CLICK-COMMAND: 'verkit Mvp2Mensal'
+  HIDE-ATTRIBUTES: true
+  NAME: ' &3[MVP+] Mensal '
+  KEEP-OPEN: true
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 mes.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/8e732af7dd9c13f6b1eb8b71bf373bbe02b8aeb3fcf69b3eb40d6d29b4ff8420'
+  SLOT: 33
+voltar:
+  LEFT-CLICK-COMMAND: 'kit'
+  RIGHT-CLICK-COMMAND: 'kit'
+  NAME: '&eVoltar ao Menu inicial.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  SLOT: 36
+  KEEP-OPEN: true

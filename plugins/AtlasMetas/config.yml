@@ -1,0 +1,165 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+Settings:
+  TamanhoInventario: 36
+  InfoSlot: 31
+  NomeNPC: "&aMetas"
+
+AoCompletar:
+  - ""
+  - "&b&lMeta Global"
+  - "&bA meta global \"&f<meta>&b\" foi completada."
+  - "&bVá até o npc de metas e pegue a recompensa."
+  - ""
+
+InfoItem:
+  Material: MAP
+  Nome: "&aEstatísticas gerais"
+  Lore:
+    - "&7Veja as estatísticas do servidor abaixo:"
+    - ""
+    - "&f Total de blocos minerados:"
+    - "&7 [blocosquebrados_all] blocos minerados."
+    - ""
+    - "&f Total de mobs eliminados:"
+    - "&7 [mobsmortos_all] mobs eliminados."
+    - ""
+    - "&f Total de itens craftados:"
+    - "&7 [itenscraftados_all] itens craftados."
+    - ""
+    - "&f Total de creepers eliminados:"
+    - "&7 [mobsmortos_CREEPER] creepers eliminados."
+    - ""
+    - "&f Total de blocos colocados:"
+    - "&7 [blocoscolocados_all] blocos colocados."
+    - ""
+
+Metas:
+  m1:
+    Meta:
+      Tipo: QUEBRAR_BLOCOS
+      Especifico: false
+      Quantidade: 1000
+    Recomenpensas:
+      r1:
+        Material: STONE
+        Comandos:
+          - "givecrate $player rara 1 item"
+      r2:
+        Material: COBBLESTONE
+        Nome: "&aPedregulho"
+        Glow: true
+    Slot: 11
+    Icone:
+      Material: IRON_PICKAXE
+      Nome: "&aMinerar 1.000 blocos"
+      Lore:
+        - "&7Todos do servidor precisam"
+        - "&7minerar para atingir 1.000 blocos!"
+        - ""
+        - "&f Recompensas:"
+        - "&7 x1 Chave Meta"
+        - ""
+        - "&7Faltam <resto> blocos."
+  m2:
+    Meta:
+      Tipo: MATAR_MOBS
+      Especifico: false
+      Quantidade: 1000
+    Recomenpensas:
+      r1:
+        Material: STONE
+        Comandos:
+          - "givecrate $player rara 2 item"
+    Slot: 12
+    Icone:
+      Material: SKULL_ITEM
+      Data: 1
+      Nome: "&aMatar 1.0000 mobs"
+      Lore:
+        - "&7Todos do servidor precisam"
+        - "&7farmar mobs para atingir 1.000"
+        - "&7de mobs eliminados!"
+        - ""
+        - "&f Recompensas:"
+        - "&7 x2 Chave Meta"
+        - ""
+        - "&7Faltam <resto> mobs."
+  m3:
+    Meta:
+      Tipo: CRAFTAR_ITENS
+      Especifico: false
+      Quantidade: 500
+    Recomenpensas:
+      r1:
+        Material: STONE
+        Comandos:
+          - "givecrate $player rara 3 item"
+    Slot: 13
+    Icone:
+      Material: WORKBENCH
+      Nome: "&aCraftar 500 itens"
+      Lore:
+        - "&7Todos do servidor precisam"
+        - "&7craftar itens para atingir 500"
+        - "&7itens craftados!"
+        - ""
+        - "&f Recompensas:"
+        - "&7 x3 Chave Meta"
+        - ""
+        - "&7Faltam <resto> itens."
+  m4:
+    Meta:
+      Tipo: MATAR_MOBS
+      Especifico: CREEPER
+      Quantidade: 7500
+    Recomenpensas:
+      r1:
+        Material: STONE
+        Comandos:
+          - "givecrate $player rara 12 item"
+    Slot: 14
+    Icone:
+      Material: MONSTER_EGG
+      Data: 50
+      Nome: "&aMatar 7.500 creepers"
+      Lore:
+        - "&7Todos do servidor precisam"
+        - "&7matar creepers para atingir 7.500"
+        - "&7creepers eliminados!"
+        - ""
+        - "&f Recompensas:"
+        - "&7 x12 Chave Meta"
+        - ""
+        - "&7Faltam <resto> creepers."
+  m5:
+    Meta:
+      Tipo: COLOCAR_BLOCOS
+      Especifico: false
+      Quantidade: 30000
+    Recomenpensas:
+      r1:
+        Material: STONE
+        Comandos:
+          - "givecrate $player rara 5 item"
+    Slot: 15
+    Icone:
+      Material: BRICK
+      Nome: "&aColocar 30.000 blocos"
+      Lore:
+        - "&7Todos do servidor precisam"
+        - "&7colocar blocos para atingir 30.000"
+        - "&7blocos colocados no mundo de plots!"
+        - ""
+        - "&f Recompensas:"
+        - "&7 x5 Chave Meta"
+        - ""
+        - "&7Faltam <resto> blocos."
+
+#Permissoes: atlasmetas.admin

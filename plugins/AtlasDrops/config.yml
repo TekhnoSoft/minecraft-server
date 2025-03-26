@@ -1,0 +1,56 @@
+MySQL:
+ IP: localhost:3306
+ DB: test
+ User: admin
+ Pass: ""
+
+MensagemActionBar: "&a+<drops> drops"
+
+EditarDrops:
+  1:
+    Mob: CREEPER
+    RemoverVanilla: true
+    Drops:
+      1:
+        DarItem: true
+        Comando: nulo
+        Material: DIAMOND
+        Glow: true
+        Data: 0
+        Quantidade: 1
+        Name: "nulo"
+        Lore:
+          - "nulo"
+        Enchants:
+          - "nulo"
+
+
+Precos: #precisa ter o preço para o drop ir para o /drops
+ SULPHUR: 100
+ ROTTEN_FLESH: 200
+ BONE: 300
+ INK_SACK: 50
+ DIAMOND: 250
+ IRON_INGOT: 100
+ GOLD_INGOT: 80
+ COAL: 16
+
+Multipliers:
+ vip1: 1.2
+ vip2: 1.4
+
+Mensagens:
+ SemItem: "&eVocê não tem nenhum item armazenado"
+ LoreDoItem:
+  - "&7Quantidade: &f<qntd>"
+  - "&7Valor: &f<valor>"
+  - "&7Clique para vender"
+ VendeuTudoLore:
+  - "&7Quantidade: &f<qntd>"
+  - "&7Valor: &f<valor>"
+  - "&7Clique para vender todos seus itens"
+ Vendeu: "&eVocê vendeu &f<qntd>&e de itens por &f$<money>"
+ ExclusividadeVip: "&eEsta função é exclusiva para vips"
+ VendeuTudo: "&eVocê vendeu todos seus itens por &f$<money>"
+
+#Permissoes: drops.vender - vender tudo

@@ -1,0 +1,73 @@
+Settings:
+  DroparChao: false # caso false irá vir pro inventário do jogador
+  TamanhoInventarioLoja: 27
+  NomeInventarioLoja: "Fragmentos"
+
+Mensagens:
+  SemFragmentos: "&eVocê não tem fragmentos suficientes."
+
+Loja:
+  item1:
+    Slot: 11
+    Precos:
+      - "f1:32"
+    Item:
+      Comandos:
+        - "darvip $player 01"
+      Material: PAPER
+      Nome: "&aPacote #01"
+      Lore:
+        - "&fConteúdo: &7VIP de 1d"
+        - "&fCusto: &632x fragmentos lendários"
+        - " "
+        - " &7* O item desta compra é ativável!"
+        - " "
+        - "&aClique para adquirir!"
+
+
+
+Fragmentos:
+  f1:
+    Nome: "&6&lFragmento Lendário"
+    Drop:
+      1:
+        Chance: 0.5
+        Tipo: QUEBRAR_BLOCO
+        Especifico:
+          - DIAMOND_ORE
+          - DIAMOND_BLOCK
+    Mensagens:
+      Chat: nulo
+      ActionBar: nulo
+      Title: "&6&lVocê achou um<nl>&7Fragmento lendário."
+    Item:
+      Material: STONE
+      Texture: 7e285c5c85599437ac42e27f4921c805aed1dc5774f952a27ea7e8c9abe6e
+      Nome: "&6Fragmento lendário"
+      Lore:
+        - "&7Faça coisas &6legais&7 com este fragmento."
+  f2:
+    Nome: "&5&lFragmento Épico"
+    Drop:
+      1:
+        Chance: 0.5
+        Tipo: MATAR_MOB
+        Especifico:
+          - '*'
+      2:
+        Chance: 5
+        Tipo: MATAR_MOB
+        Especifico:
+          - PLAYER
+    Mensagens:
+      Chat: nulo
+      ActionBar: "&5Você achou um fragmento épico."
+      Title: nulo
+    Item:
+      Material: PRISMARINE_SHARD
+      Glow: true
+      Nome: "&5Fragmento épico"
+      Lore:
+        - "&7Faça coisas &5legais&7 com este fragmento."
+
+#Permissoes: "atlasfragmentos.give"

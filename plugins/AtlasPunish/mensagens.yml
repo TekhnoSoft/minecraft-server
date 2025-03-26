@@ -1,0 +1,98 @@
+SemPerm: '&cVocê precisa ser do cargo &eAjudante &cou superior para executar este comando.'
+SemPermBan: '&cVocê precisa ser do cargo &cAdmin &cou superior para executar este comando.'
+SemPermUnBan: '&cVocê precisa ser do cargo &cAdmin &cou superior para executar este comando.'
+SemPermPunicoes: '&cVocê precisa ser do cargo &cAdmin &cou superior para executar este comando.'
+SemPermTempBan: '&cVocê precisa ser do cargo &5Moderador &cou superior para executar este comando.'
+SemPermMute: '&cVocê precisa ser cargo &eAjudante &cou superior para executar este comando.'
+SemPermDesmutar: '&cVocê precisa ser do cargo &4Moderador &cou superior para desmutar alguém.'
+SemPermKick: '&cVocê precisa ser cargo &6Master &cou superior para executar este comando.'
+MotivoDeBanimentoNaoExiste: '&cEste motivo de banimento não existe, digite /punir <jogador> para ver a lista de motivos.'
+
+AtivarAnuncios: true
+
+AnuncioPermanente:
+ - ""
+ - " &c* @nome foi punido pelo @author"
+ - " &c* Motivo: @motivo"
+ - " &c* Duração: Permanente"
+ - ""
+ 
+AnuncioTemporario:
+ - ""
+ - " &c* @nome foi punido pelo @author"
+ - " &c* Motivo: @motivo"
+ - " &c* Duração: @tempo"
+ - ""
+
+NotificarUnBan: true
+
+AnuncioUnBan:
+ - ""
+ - " &c* @nome foi despunido por @author"
+ - ""
+ 
+NotificarMute: true
+
+AnuncioMute:
+ - ""
+ - "&c* @nome foi mutado por @author"
+ - "&c* Motivo: @motivo"
+ - "&c* Duração: @tempo"
+ - ""
+ 
+#Configure abaixo apenas se o modo bungeecord estiver em false na sua config.yml
+#caso esteja em true configure na pasta de seu bungeecord.
+
+Kick:
+ - "&c&lREDE ONIX"
+ - ""
+ - "&cVocê foi kickado do servidor"
+ - ""
+ - "&cMotivo: @motivo"
+ - "&cAutor: @author"
+ - ""
+ - "&cAcha que foi injusto? Acesse: www.atlasplugins.com"
+
+BanidoPermanentemente:
+ - "&c&lREDE ONIX"
+ - ""
+ - "&cVocê está banido permanentemente da rede de servidores."
+ - ""
+ - "&cMotivo: @motivo"
+ - "&cAutor: @author"
+ - "&cID da Punição: &e#@id"
+ - ""
+ - "&cAcesse: &ewww.atlasplugins.com/unban &cpara recorrer a uma punição."
+ 
+ 
+BanidoTemporariamente:
+ - "&c&lREDE ONIX"
+ - ""
+ - "&cVocê está banido do servidor por @tempo"
+ - ""
+ - "&cMotivo: @motivo"
+ - "&cAutor: @author"
+ - "&cID da Punição: &e#@id"
+ - ""
+ - "&cAcesse: &eloja.redeonix.com.br/unban &cpara recorrer a uma punição."
+ 
+ 
+MutadoPermanentemente:
+ - "&cVocê está mutado no servidor para sempre"
+ - ""
+ - "&cMotivo: @motivo"
+ - "&cAutor: @author"
+ - "&cEvidência: @prova"
+ - ""
+ - "&cSe você acha que isso foi um engano entre em:"
+ - "&eloja.redeonix.com.br/punicoes/revogar"
+ 
+MutadoTemporariamente:
+ - "&cVocê está mutado no servidor por @tempo"
+ - ""
+ - "&cMotivo: @motivo"
+ - "&cAutor: @author"
+ - "&cEvidência: @prova"
+ - ""
+ - "&cSe você acha que isso foi um engano entre em:"
+ - "&eloja.redeonix.com.br/punicoes/revogar"

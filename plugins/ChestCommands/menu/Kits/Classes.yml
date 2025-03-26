@@ -1,0 +1,172 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: '&7Kit Categorias'
+
+  rows: 4
+  
+  type: CHEST
+
+  command: ''
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+piscium:
+  LEFT-CLICK-COMMAND: 'kit Piscium'
+  RIGHT-CLICK-COMMAND: 'verkit Piscium'
+  NAME: '&d[PISCIUM]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  SLOT: 11
+  ID: 263
+  KEEP-OPEN: true
+herculis:
+  LEFT-CLICK-COMMAND: 'kit Herculis'
+  RIGHT-CLICK-COMMAND: 'verkit Herculis'
+  NAME: '&d[HERCULIS]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 263
+  DATA-VALUE: 1
+  SLOT: 12
+  KEEP-OPEN: true
+pegasi:
+  LEFT-CLICK-COMMAND: 'kit Pegasi'
+  RIGHT-CLICK-COMMAND: 'verkit Pegasi'
+  NAME: '&d[PEGASI]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 264
+  SLOT: 13
+  KEEP-OPEN: true
+upsilon:
+  LEFT-CLICK-COMMAND: 'kit upsilon'
+  RIGHT-CLICK-COMMAND: 'verkit upsilon'
+  NAME: '&d[UPSILON]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 265
+  SLOT: 14
+  KEEP-OPEN: true
+kepler:
+  LEFT-CLICK-COMMAND: 'kit Kepler'
+  RIGHT-CLICK-COMMAND: 'verkit Kepler'
+  NAME: '&d[KEPLER]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 266
+  SLOT: 15
+  KEEP-OPEN: true
+andromedae:
+  LEFT-CLICK-COMMAND: 'kit Andromedae'
+  RIGHT-CLICK-COMMAND: 'verkit Andromedae'
+  NAME: '&d[ANDROMEDAE]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 336
+  SLOT: 20
+  KEEP-OPEN: true
+kelt:
+  LEFT-CLICK-COMMAND: 'kit Kelt'
+  RIGHT-CLICK-COMMAND: 'verkit Kelt'
+  NAME: '&d[KELT]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 337
+  SLOT: 21
+  KEEP-OPEN: true
+hoth:
+  LEFT-CLICK-COMMAND: 'kit Hoth'
+  RIGHT-CLICK-COMMAND: 'verkit Hoth'
+  NAME: '&d[HOTH]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 348
+  SLOT: 22
+  KEEP-OPEN: true
+trappist:
+  LEFT-CLICK-COMMAND: 'kit Trappist'
+  RIGHT-CLICK-COMMAND: 'verkit Trappist'
+  NAME: '&D[TRAPPIST]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 388
+  SLOT: 23
+  KEEP-OPEN: true
+onix:
+  LEFT-CLICK-COMMAND: 'kit Onix'
+  RIGHT-CLICK-COMMAND: 'verkit Onix'
+  NAME: '&D[ONIX]'
+  LORE:
+   - ''
+   - '&7Clique Esquerdo para: &5&lCOLETAR'
+   - '&7Clique Direito para: &5&lVISUALIZAR'
+   - ''
+   - '&7Tempo de coleta: &51 dia.'
+  ID: 399
+  SLOT: 24
+  KEEP-OPEN: true
+voltar:
+  LEFT-CLICK-COMMAND: 'kit'
+  RIGHT-CLICK-COMMAND: 'kit'
+  NAME: '&aVoltar ao Menu inicial.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: 'MHF_ArrowLeft'
+  SLOT: 27
+  KEEP-OPEN: true

@@ -1,0 +1,51 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Lojas Virtuais'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'loja'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+loja:
+  LEFT-CLICK-COMMAND: 'open: Loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: Loja.yml'
+  NAME: ' &a&lLOJA PUBLICA '
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/35f4861aa5b22ee28a90e75dab45d221efd14c0b1ecc8ee998fb67e43bb8f3de'
+  SLOT: 12
+  KEEP-TRUE: true
+lojavip:
+  LEFT-CLICK-COMMAND: ''
+  RIGHT-CLICK-COMMAND: ''
+  NAME: ' &b&lLOJA VIP &c[Em Breve]'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-URL: 'http://textures.minecraft.net/texture/54bf893fc6defad218f7836efefbe636f1c2cc1bb650c82fccd99f2c1ee6'
+  SLOT: 14
+  HIDE-ATTRIBUTES: true

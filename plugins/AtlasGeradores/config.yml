@@ -1,0 +1,6 @@
+#Se esta opção estiver ativada, o spawner será dropado no chão ao quebrado, caso contrário será enviado direto para o inventário.
+DroparSpawner: false
+
+
+Mensagens:
+ SemPerm: '&cVocê não tem permissão para executar este comando.'

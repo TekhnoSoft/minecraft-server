@@ -1,0 +1,335 @@
+# 
+# EFICIENCIA
+# FORTUNA
+# DESTRUIDOR
+# EXPLOSAO
+# LASER
+# SORTUDO
+# SUMONADOR
+# VELOCIDADE
+# PRESSA
+# MINERADOR
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Settings:
+  PorcentagemResetar: 60
+  PermissaoDefault: usar.minas
+  EntrarMina:
+    Titulo: "&5RANKUP ONIX<nl>&fBem vindo a minera\xc3\xa7\xc3\xa3o"
+    Som: LEVEL_UP
+Mensagens:
+  ActionBar: '&2$&a<valor> de coins adicionados!'
+  UsarValeBlocos: '&e <valor> blocos foram adicionados a sua conta.'
+  QuebradoEmMassa: '&6<blocos>x blocos quebrados gerando &f <money>&6 em dinheiro.'
+  CompactarBlocos:
+  - ''
+  - "&e Transformados <qntd> blocos de ativa\xc3\xa7\xc3\xa3o em 1 bloco com o total\
+    \ de"
+  - '&e <total> blocos.'
+  - ''
+  LuckBlock:
+  - ''
+  - '&6&l LUCKY BLOCK'
+  - "&f Voc\xc3\xaa quebrou <qntd> lucky block e recebeu:"
+  - ''
+  - '&8  <bolinha> &e<valor> &fde &e<nome>'
+Minas:
+  mina1:
+    Locations:
+      Entrada: 374.13207159832143;120.0;819.3269981673866;136.05017;2.5499697;MinaWarsBuild
+      Loc1: 368.0;118.0;813.0;0.0;0.0;MinaWarsBuild
+      Loc2: 344.0;106.0;789.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 1
+    MinaPVP: false
+    Permissao: rank.mina1
+    Icone: '159:0'
+    Nome: '&bMina Piscium'
+    Rank: '&aCategoria Piscium'
+    Blocos:
+      bloco1:
+        Valor: 2
+        ID: 159
+        Data: 0
+        Porcentagem: 98
+        LuckBlock: false
+      bloco2:
+        Valor: 4
+        ID: 41
+        Data: 0
+        Porcentagem: 2
+        LuckBlock: true
+  mina2:
+    Locations:
+      Entrada: 52.55296707500404;120.0;641.087550972165;136.94989;0.15001002;MinaWarsBuild
+      Loc1: 45.0;118.0;633.0;0.0;0.0;MinaWarsBuild
+      Loc2: 21.0;106.0;609.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 2
+    MinaPVP: false
+    Permissao: rank.mina2
+    Icone: '159:1'
+    Nome: '&bMina Herculis'
+    Rank: '&aCategoria Herculis'
+    Blocos:
+      bloco1:
+        Valor: 4
+        ID: 159
+        Data: 1
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 8
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina3:
+    Locations:
+      Entrada: -91.82531413418788;127.0;264.4075726925309;134.54846;-1.0500475;MinaWarsBuild
+      Loc1: -99.0;125.0;256.0;0.0;0.0;MinaWarsBuild
+      Loc2: -123.0;113.0;232.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 3
+    MinaPVP: false
+    Permissao: rank.mina3
+    Icone: '159:2'
+    Nome: '&bMina Pegasi'
+    Rank: '&aCategoria Pegasi'
+    Blocos:
+      bloco1:
+        Valor: 6
+        ID: 159
+        Data: 2
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 12
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina4:
+    Locations:
+      Entrada: 629.1557289097168;127.0;527.5301171396871;135.29944;-1.2000623;MinaWarsBuild
+      Loc1: 596.0;125.0;494.0;0.0;0.0;MinaWarsBuild
+      Loc2: 620.0;113.0;518.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 4
+    MinaPVP: false
+    Permissao: rank.mina4
+    Icone: '159:2'
+    Nome: '&bMina Upsilon'
+    Rank: '&aCategoria Upsilon'
+    Blocos:
+      bloco1:
+        Valor: 8
+        ID: 159
+        Data: 3
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 16
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina5:
+    Locations:
+      Entrada: 620.1601994026314;194.0;-855.1824668483249;135.00107;-1.8000317;MinaWarsBuild
+      Loc1: 616.0;192.0;-859.0;0.0;0.0;MinaWarsBuild
+      Loc2: 592.0;180.0;-883.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 5
+    MinaPVP: false
+    Permissao: rank.mina5
+    Icone: '159:4'
+    Nome: '&bMina Kepler'
+    Rank: '&aCategoria Kepler'
+    Blocos:
+      bloco1:
+        Valor: 10
+        ID: 159
+        Data: 4
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 20
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina6:
+    Locations:
+      Entrada: -154.90943369465055;130.0;-1556.1827627761043;-225.59908;6.8999767;MinaWarsBuild
+      Loc1: -186.0;128.0;-1587.0;0.0;0.0;MinaWarsBuild
+      Loc2: -162.0;116.0;-1563.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 6
+    MinaPVP: false
+    Permissao: rank.mina6
+    Icone: '159:5'
+    Nome: '&bMina Andromedae'
+    Rank: '&aCategoria Andromedae'
+    Blocos:
+      bloco1:
+        Valor: 12
+        ID: 159
+        Data: 5
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 24
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina7:
+    Locations:
+      Entrada: -698.1984228726069;81.0;-1162.028585424744;138.60075;5.9999623;MinaWarsBuild
+      Loc1: -728.0;79.0;-1193.0;0.0;0.0;MinaWarsBuild
+      Loc2: -704.0;67.0;-1169.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 7
+    MinaPVP: false
+    Permissao: rank.mina7
+    Icone: '159:6'
+    Nome: '&bMina Kelt'
+    Rank: '&aCategoria Kelt'
+    Blocos:
+      bloco1:
+        Valor: 14
+        ID: 159
+        Data: 6
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 28
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina8:
+    Locations:
+      Entrada: -589.0538129983664;81.0;-2079.8032959846732;141.98407;1.7999854;MinaWarsBuild
+      Loc1: -618.0;79.0;-2109.0;0.0;0.0;MinaWarsBuild
+      Loc2: -594.0;67.0;-2085.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 8
+    MinaPVP: false
+    Permissao: rank.mina8
+    Icone: '159:7'
+    Nome: '&bMina Hoth'
+    Rank: '&aCategoria Hoth'
+    Blocos:
+      bloco1:
+        Valor: 16
+        ID: 159
+        Data: 7
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 32
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina9:
+    Locations:
+      Entrada: -1174.8461969075029;100.0;-1385.8427451005448;135.98218;3.8999827;MinaWarsBuild
+      Loc1: -1182.0;98.0;-1394.0;0.0;0.0;MinaWarsBuild
+      Loc2: -1206.0;86.0;-1418.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 9
+    MinaPVP: false
+    Permissao: rank.mina9
+    Icone: '159:8'
+    Nome: '&bMina Trappist'
+    Rank: '&aCategoria Trappist'
+    Blocos:
+      bloco1:
+        Valor: 18
+        ID: 159
+        Data: 8
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 36
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+  mina10:
+    Locations:
+      Entrada: -696.0976757181045;81.0;-1160.8825300115354;135.15137;1.1999733;MinaWarsBuild
+      Loc1: -728.0;79.0;-1193.0;0.0;0.0;MinaWarsBuild
+      Loc2: -704.0;67.0;-1169.0;0.0;0.0;MinaWarsBuild
+    Prioridade: 10
+    MinaPVP: false
+    Permissao: rank.mina10
+    Icone: '159:9'
+    Nome: '&bMina Onix'
+    Rank: '&aCategoria Onix'
+    Blocos:
+      bloco1:
+        Valor: 20
+        ID: 159
+        Data: 9
+        Porcentagem: 90
+        LuckBlock: false
+      bloco2:
+        Valor: 40
+        ID: 41
+        Data: 0
+        Porcentagem: 10
+        LuckBlock: true
+Recompensas:
+  recompensa1:
+    Nome: 50 Blocos
+    Title: '&e+ 50 blocos'
+    Comando: giveblocos $player 50
+    Chance: 5
+  recompensa2:
+    Nome: 150 Blocos
+    Title: '&e+ 30 blocos'
+    Comando: giveblocos $player 150
+    Chance: 0.5
+LuckBlock:
+  recompensa1:
+    Nome: Cash
+    Comando: cash givevale $player $valor
+    ValorBase: 50
+    Chance: 30
+  recompensa2:
+    Nome: Blocos
+    Comando: giveblocos $player $valor
+    ValorBase: 200
+    Chance: 30
+Minerador:
+  recompensa1:
+    TitleAll: '&a<player> desenterrou uma chave<nl>&aTodos jogadores ganharam uma
+      chave.'
+    Chance: 10
+    Comando: givechave $player comum 1 item
+  recompensa2:
+    TitleAll: '&a<player> desenterrou uma vale blocos<nl>&aTodos jogadores ganharam
+      um vale blocos.'
+    Chance: 30
+    Comando: giveblocos $player 5000
+ValeBlocos:
+  Material: MOSSY_COBBLESTONE
+  Nome: '&a+<valor> Blocos'
+  Lore:
+  - '&7Receba &f<valor> &7Blocos'
+  - "&7em seu saldo de minera\xc3\xa7\xc3\xa3o."
+  - ''
+  - '&aClique para ativar.'
+Picareta:
+  Material: DIAMOND_PICKAXE
+  Nome: '&bPicareta Onix &7[<blocos>]'
+  Lore:
+  - '&7Uma picareta legal.'
+ModificarEnchants:
+  Eficiencia:
+    Slot: 19
+    DefaultLevel: 1
+    MaxLevel: 300
+    DefaultPrice: 100
+    PricePerUpgrade: 10
+    ChancePerUpgrade: 1
