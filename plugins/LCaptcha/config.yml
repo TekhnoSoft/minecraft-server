@@ -1,0 +1,19 @@
+Captcha:
+  # Por enquanto existem três tipos de captcha disponiveis:
+  # Head = O jogador vai precisar clicar na cabeça verde para concluir a verificação
+  # Item = O jogador vai precisar clicar em um determinado item para concluir a verificação
+  # Text = O jogador vai precisar digitar um determinado código no chat para concluir a verificação
+  Type: 'Head'
+  Bloquear_Movimento: true
+  Bloquear_Chat: true
+  Bloquear_Comando: true
+  # Os sons são da versão 1.8, caso apresente erros no seu servidor desative:
+  Sons: true
+  Mensagem_Caracter: '&ePara verificar o captcha digite o codigo: @codigo'
+  Mensagem_Kick: '&c&lCAPTCHA {linha}&cVoce errou o teste de verificacao, tente novamente...'
+  Mensagem_Verificado: '&aCaptcha confirmado com sucesso!'
+
+# O sistema abaixo serve para pular o sistema de captcha; você pode colocar isso para os staffs
+Bypass:
+  Ativado: false
+  Permissao: 'captcha.bypass'
