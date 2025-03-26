@@ -1,0 +1,9 @@
+Olá novamente, deixei este arquivo apenas para mostrar quais arquivos devem ser deletados, caso queira
+dar um reset no servidor.
+
+
+ESSENTIALS/MONEY
+ESSENTIALS/PLAYER
+ENDERCHEST NO MAPA
+PLAYER POINTS
+PERMISSION EX (JOGADORES)
